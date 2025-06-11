@@ -1,0 +1,9 @@
+[Unit]
+Description=Nightly bucket update
+
+[Timer]
+OnCalendar=*-*-* 01:50:00 UTC
+Persistent=true
+
+[Install]
+WantedBy=timers.target

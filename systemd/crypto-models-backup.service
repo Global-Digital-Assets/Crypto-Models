@@ -1,0 +1,17 @@
+[Unit]
+Description=Nightly crypto-models backup
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=cm
+Group=cm
+WorkingDirectory=/home/cm/crypto-models
+ExecStart=/home/cm/crypto-models/backup/backup.sh
+ProtectSystem=strict
+PrivateTmp=yes
+NoNewPrivileges=yes
+ReadWritePaths=/var/backups
+StandardOutput=journal
+StandardError=journal

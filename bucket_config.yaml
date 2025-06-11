@@ -1,0 +1,3 @@
+# Thresholds for automatic bucket classification
+volume_breaks: [1000000000, 100000000]   # USD turnover high, mid
+vol_breaks: [0.02, 0.05]                 # 2 %, 5 % realised daily vol

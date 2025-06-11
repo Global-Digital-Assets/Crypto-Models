@@ -1,0 +1,8 @@
+[Unit]
+Description=Train all crypto models (buckets + specialists)
+After=network.target crypto-models-buckets.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/crypto-models
+ExecStart=/root/crypto-models/venv/bin/python train/run_all.py

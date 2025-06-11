@@ -1,0 +1,7 @@
+models:
+  - token: BTCUSDT
+    modes: [long, short]
+  - token: ETHUSDT
+    modes: [long, short]
+  - token: SOLUSDT
+    modes: [long, short]

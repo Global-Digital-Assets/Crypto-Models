@@ -1,0 +1,8 @@
+[Unit]
+Description=Update bucket mapping for crypto-models
+After=network.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/crypto-models
+ExecStart=/root/crypto-models/venv/bin/python buckets/update_buckets.py --symbols ALL

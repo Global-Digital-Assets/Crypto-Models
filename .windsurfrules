@@ -1,0 +1,120 @@
+Crypto - Models
+Connect to the Hetzner VPS
+
+bash
+CopyInsert in Terminal
+ssh -i ~/.ssh/binance_futures_tool  root@37.27.200.41
+🔑 SSH Key
+(same key used across all services – never commit)
+
+CopyInsert
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCgKpg75l42bl6nqPGB19mhr3u/FvLqpVM+F6h83KfQngAAAKA5gORcOYDk
+XAAAAAtzc2gtZWQyNTUxOQAAACCgKpg75l42bl6nqPGB19mhr3u/FvLqpVM+F6h83KfQng
+AAAECVjT6ZU1OJy2CpOaaBDrABKwO/XHGsxASibDLcrTBy+qAqmDvmXjZuXqeo8YHX2aGv
+e78W8uqlUz4XqHzcp9CeAAAAHWJpbmFuY2UtZnV0dXJlcy10b29sLTIwMjUwNjAx
+-----END OPENSSH PRIVATE KEY-----
+
+GitHub mirror | https://github.com/Global-Digital-Assets/Crypto-Models  Github token = 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
+Crypto-Models ‑ Project Brief
+0. Access
+
+bash
+CopyInsert
+# Production VPS (Hetzner, 8-core, 16 GB)
+ssh -i ~/.ssh/binance_futures_tool root@37.27.200.41
+• Source-of-truth repo (mirror/backup only):https://github.com/Global-Digital-Assets/Crypto-Models• PAT: 
+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 (do NOT commit)
+
+
+1. Scope & Objectives
+1. Train, maintain, and serve multiple per-token or grouped models (long & short).
+2. 30-day rolling window; emit buy / sell / neutral plus confidence & risk fields.
+3. Sits between Data-API and ML-engine; scales to 5-10 new models / month.
+
+2. End-to-End Data Flow
+
+
+CopyInsert
+Data-API → crypto-models (N models) → ML-engine (dispatcher) → Analytics-API → Futures-Bot
+• 
+crypto-models writes one JSON per model to /root/crypto-models/signals/.
+• ML-engine has inbox/ symlinked to that folder and fuses signals via signal_dispatcher.py (highest-probability or custom rule).
+• Resulting latest_signals.json is unchanged, so Analytics & Bot need no edits.
+
+
+3. Directory Layout (VPS)
+
+
+CopyInsert
+/root/crypto-models/
+├─ ingest/               # Data pulls from Data-API
+├─ features/             # Stateless feature builders
+├─ train/                # train.py <token|group> --mode long|short
+├─ infer/                # infer.py → signals/*.json
+├─ dispatcher/           # (optional) in-service fusion
+├─ models/               # <strategy>/model.pkl + metadata.json
+├─ signals/              # *.json outputs (read-only to ML-engine)
+/root/ml-engine/
+└─ inbox/ → symlink to /root/crypto-models/signals
+
+4. Model Lifecycle
+| Step | Script | Timer | Notes | |------|--------|-------|-------| | Ingestion & feature build | 
+ingest.py / features.py | ad-hoc (triggered by train) | Saves parquet under /data/ | | Training | train.py | crypto-models-train.timer (02:30 UTC) | Daily incremental; full retrain Sun | | Inference | infer.py | crypto-models-infer.timer (every 5 min) | Drops JSON signals |
+
+All live models are listed in 
+registry.yaml; adding a model is a config change only.
+
+
+5. Signal Schema (example)
+
+jsonc
+CopyInsert
+{
+  "timestamp": 1718123456,
+  "model_id": "BTC_USDT_long_v2025-06-11",
+  "signal": "buy",          // buy | sell | neutral
+  "probability": 0.87,
+  "target_price": 72750.5,
+  "stop_loss": 69500.0,
+  "expires_at": 1718209856
+}
+
+6. Systemd Units (/etc/systemd/system/)
+| Unit | ExecStart | Schedule | |------|-----------|----------| | 
+crypto-models-train.service | venv/bin/python train/run_all.py | daily @ 02:30 | | crypto-models-infer.service | venv/bin/python infer/run_all.py | every 5 min | | crypto-models-api.service (optional) | uvicorn api:app --host 0.0.0.0 --port 8004 | always |
+
+
+7. Observability
+Crypto-models
+
+
+CopyInsert
+cm_infer_latency_ms{model_id=…}
+cm_signal_count{model_id=…,signal=buy}
+ML-engine
+
+
+CopyInsert
+ml_dispatch_selected_total{signal=buy}
+Prometheus scrapes ports 8004 (crypto-models API) and 9101 (ML-engine).
+
+8. Deployment Checklist
+1. git clone or rsync repo into /root/crypto-models; python -m venv venv.
+2. pip install -r requirements.txt.
+3. Create symlink:bashCopyInsert in Terminalln -s /root/crypto-models/signals /root/ml-engine/inbox
+4. systemctl daemon-reload && systemctl enable --now crypto-models-*.timer.
+5. Verify:bashCopyInsert/root/crypto-models/venv/bin/python infer/infer.py --dry-run
+6. jq '.' /root/crypto-models/signals/*.json | head
+7. Watch Prometheus metrics & compare ML-engine dispatcher output for 24 h.
+8. Flip Analytics config to trust new latest_signals.json.
+
+9. Incremental Roadmap
+1. Prototype on BTC, ETH, SOL.
+2. Shadow-run for 48 h.
+3. Enable live mode; roll out to 20+ tokens.
+4. Add short-only strategies & sector (group) models.
+5. Monthly: retire worst-performing models, add 5-10 new ones.
+
+Remember: VPS (37.27.200.41) is the single source of truth. Pushes to GitHub are CI backups only.You have my explicit approval to create, write, edit, read, save, move, delete, change any code or files on the hetzner server or my MacBook. 
