@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import subprocess
+import sys
 import yaml
 import polars as pl
 from utils import ROOT_DIR, BUCKET_MAPPING_FILE
@@ -17,17 +18,17 @@ def main() -> None:  # noqa: D401
     for bucket in mapping["bucket"].unique():  # type: ignore
         symbols = mapping.filter(pl.col("bucket") == bucket)["symbol"].to_list()  # type: ignore
         subprocess.run([
-            "python", "train/train.py", bucket, "--mode", "long", "--tokens", ",".join(symbols)
+            sys.executable, "train/train.py", bucket, "--mode", "long", "--tokens", ",".join(symbols)
         ])
         subprocess.run([
-            "python", "train/train.py", bucket, "--mode", "short", "--tokens", ",".join(symbols)
+            sys.executable, "train/train.py", bucket, "--mode", "short", "--tokens", ",".join(symbols)
         ])
 
     # 2. Train specialist models listed in registry.yaml
     for entry in reg["models"]:
         token = entry["token"]
         for mode in entry["modes"]:
-            subprocess.run(["python", "train/train.py", token, "--mode", mode])
+            subprocess.run([sys.executable, "train/train.py", token, "--mode", mode])
 
 
 if __name__ == "__main__":

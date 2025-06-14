@@ -14,6 +14,9 @@ import polars as pl
 import numpy as np
 from sklearn.metrics import roc_auc_score
 import lightgbm as lgb
+import os
+os.environ['OMP_NUM_THREADS'] = '8'
+os.environ['OPENBLAS_NUM_THREADS'] = '8'
 
 from utils import FEATURES_DIR, MODELS_DIR, timestamp, dump_json
 
@@ -28,6 +31,9 @@ def parse_args() -> argparse.Namespace:  # noqa: D401
     p.add_argument("--mode", choices=["long", "short"], default="long")
     p.add_argument("--window", type=int, default=30, help="training window in days")
     p.add_argument("--tokens", help="comma-separated member symbols when training a bucket model")
+    p.add_argument("--horizon", type=int, default=60, help="forecast horizon in minutes (e.g. 60)")
+    p.add_argument("--target-pct", type=float, default=1.0, help="absolute percentage move defining a positive label, e.g. 1.0 for 1%")
+    p.add_argument("--class-weight", choices=["balanced", "none"], default="balanced", help="LightGBM class_weight parameter")
     return p.parse_args()
 
 
@@ -42,27 +48,46 @@ def load_features(token: str) -> pl.DataFrame:
     return pl.read_parquet(fp)
 
 
-def build_target(df: pl.DataFrame, mode: str) -> pl.DataFrame:
-    """Add binary target column based on **future** 15-min return to avoid leakage."""
-    future_ret = (df["close"].shift(-1) / df["close"] - 1).alias("future_ret")
+def build_target(df: pl.DataFrame, mode: str, horizon: int, target_pct: float) -> pl.DataFrame:
+    """Add binary target column based on *future* return over `horizon` minutes.
+
+    Parameters
+    ----------
+    df : pl.DataFrame
+        Feature dataframe sorted by `dt` 15-minute timestamps.
+    mode : str
+        "long" or "short" model label definition.
+    horizon : int
+        Forecast horizon in minutes, must be positive. Assumes 15-minute bar spacing.
+    target_pct : float
+        Threshold move (absolute percent) defining a positive label. e.g. 1.0 = 1 %.
+    """
+    # Number of 15-minute bars to look ahead
+    shift_steps = max(1, int(horizon // 15))
+    future_ret = (df["close"].shift(-shift_steps) / df["close"] - 1).alias("future_ret")
     df = df.with_columns(future_ret)
+    thresh = target_pct / 100
     if mode == "long":
-        target = (pl.col("future_ret") > 0).cast(int).alias("y")
-    else:  # short model
-        target = (pl.col("future_ret") < 0).cast(int).alias("y")
+        target = (pl.col("future_ret") >= thresh).cast(int).alias("y")
+    else:
+        target = (pl.col("future_ret") <= -thresh).cast(int).alias("y")
     df = df.with_columns(target)
     return df.drop_nulls(subset=["y"])
 
 
-def train_lightgbm(X: np.ndarray, y: np.ndarray) -> lgb.LGBMClassifier:
+def train_lightgbm(X: np.ndarray, y: np.ndarray, class_weight: str) -> lgb.LGBMClassifier:
     clf = lgb.LGBMClassifier(
-        n_estimators=300,
-        learning_rate=0.05,
-        max_depth=-1,
-        num_leaves=63,
-        subsample=0.8,
-        colsample_bytree=0.8,
+        n_estimators=800,
+        learning_rate=0.08,
+        max_depth=8,
+        num_leaves=127,
+        subsample=0.85,
+        colsample_bytree=0.85,
         random_state=42,
+        n_jobs=8,
+        force_row_wise=True,
+        class_weight=(class_weight if class_weight == "balanced" else None),
+        verbose=-1,
     )
     clf.fit(X, y)
     return clf
@@ -83,7 +108,7 @@ def main() -> None:  # noqa: D401
         df = pl.concat(df_list, how="vertical")
     else:
         df = load_features(args.token)
-    df = build_target(df, args.mode)
+    df = build_target(df, args.mode, args.horizon, args.target_pct)
     df = df.sort("dt")
 
     # Keep last *window* days
@@ -96,13 +121,37 @@ def main() -> None:  # noqa: D401
     split_idx = int(n * 0.8)
     train_df, val_df = df[:split_idx], df[split_idx:]
 
-    feature_cols = [c for c in df.columns if c not in {"dt", "future_ret", "y"}]
-    X_train = train_df.select(feature_cols).to_numpy()
-    y_train = train_df["y"].to_numpy()
-    X_val = val_df.select(feature_cols).to_numpy()
-    y_val = val_df["y"].to_numpy()
+    # Skip training if not enough samples
+    if len(train_df) < 200:
+        print(f"[warn] {args.token} not enough samples ({len(train_df)}) – skipping model.")
+        return
 
-    model = train_lightgbm(X_train, y_train)
+    # Keep only numeric scalar columns to avoid LightGBM errors
+    numeric_tps = {
+        pl.Int8, pl.Int16, pl.Int32, pl.Int64,
+        pl.UInt8, pl.UInt16, pl.UInt32, pl.UInt64,
+        pl.Float32, pl.Float64,
+    }
+    feature_cols = [
+        c for c, tp in zip(df.columns, df.dtypes)
+        if c not in {"dt", "future_ret", "y"} and tp in numeric_tps
+    ]
+    # Cast features to float to avoid sequence/heterogeneous errors
+    train_features_df = train_df.select(feature_cols).with_columns(
+        [pl.col(c).cast(pl.Float64, strict=False) for c in feature_cols]
+    )
+    val_features_df = val_df.select(feature_cols).with_columns(
+        [pl.col(c).cast(pl.Float64, strict=False) for c in feature_cols]
+    )
+
+    X_train = train_features_df.to_numpy()
+    y_train = train_df["y"].to_numpy()
+    X_val = val_features_df.to_numpy()
+    y_val = val_df["y"].to_numpy()
+    if len(feature_cols) == 0:
+        raise SystemExit("No numeric features available after filtering – abort.")
+
+    model = train_lightgbm(X_train, y_train, args.class_weight)
     val_pred = model.predict_proba(X_val)[:, 1]
     roc_auc = roc_auc_score(y_val, val_pred)
 
@@ -116,6 +165,8 @@ def main() -> None:  # noqa: D401
         "trained_at": timestamp(),
         "token": args.token,
         "mode": args.mode,
+        "horizon_min": args.horizon,
+        "target_pct": args.target_pct,
         "feature_cols": feature_cols,
         "roc_auc": round(float(roc_auc), 4),
         "model_path": str(model_path),

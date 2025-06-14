@@ -1,3 +1,4 @@
 # Thresholds for automatic bucket classification
-volume_breaks: [1000000000, 100000000]   # USD turnover high, mid
-vol_breaks: [0.02, 0.05]                 # 2 %, 5 % realised daily vol
+vol_breaks: [0.02, 0.05, 0.15]  # L/M/H/U volatility tiers  
+volume_breaks: [1000000, 10000000, 100000000]  # L/M/H/U volume tiers
+mcap_breaks: [100000000, 1000000000, 10000000000]  # S/M/L/XL market cap tiers
