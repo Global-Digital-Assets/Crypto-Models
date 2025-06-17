@@ -156,7 +156,7 @@ def main() -> None:  # noqa: D401
     roc_auc = roc_auc_score(y_val, val_pred)
 
     # Persist
-    out_dir = MODELS_DIR / f"{args.token}_{args.mode}"
+    out_dir = MODELS_DIR / f"{args.token}_{args.mode}_{args.horizon}"
     out_dir.mkdir(parents=True, exist_ok=True)
     model_path = out_dir / "model.pkl"
     joblib.dump(model, model_path)
