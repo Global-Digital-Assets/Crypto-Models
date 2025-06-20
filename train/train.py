@@ -74,12 +74,15 @@ def build_target(df: pl.DataFrame, mode: str, horizon: int, target_pct: float) -
     shift_steps = max(1, int(horizon // 15))
     future_ret = (df["close"].shift(-shift_steps) / df["close"] - 1).alias("future_ret")
     df = df.with_columns(future_ret)
-    if mode == "short" and target_pct <= 0:
-        # adaptive threshold: 0.5 * ATR percent
+    if target_pct <= 0 and "atr_20" in df.columns:
+        # adaptive threshold: 0.5 * ATR percent of price
         atr_pct = (pl.col("atr_20") / pl.col("close")).fill_null(strategy="forward")
         thresh_series = (atr_pct * 0.5).alias("dyn_thresh")
         df = df.with_columns(thresh_series)
-        target = (pl.col("future_ret") <= -pl.col("dyn_thresh")).cast(int).alias("y")
+        if mode == "long":
+            target = (pl.col("future_ret") >= pl.col("dyn_thresh")).cast(int).alias("y")
+        else:  # short
+            target = (pl.col("future_ret") <= -pl.col("dyn_thresh")).cast(int).alias("y")
     else:
         thresh = target_pct / 100
         if mode == "long":
