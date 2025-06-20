@@ -148,76 +148,118 @@ def main() -> None:  # noqa: D401
     for entry in reg["models"]:
         token = entry["token"]
         bucket_df = pl.read_csv(BUCKET_MAPPING_FILE)
-        bucket = bucket_df.filter(pl.col("symbol") == token)["bucket"].item()
+        match = bucket_df.filter(pl.col("symbol") == token)
+        if match.height:
+            bucket = match["bucket"].item()
+        else:
+            # fallback: treat the token itself as its own bucket
+            bucket = token
 
         for mode in entry["modes"]:
-            model_dir = ROOT_DIR / "models" / f"{token}_{mode}"
-            if not model_dir.exists():
-                model_dir = ROOT_DIR / "models" / f"{bucket}_{mode}"
+            # Look for horizon-specific models (prefer 15-minute models)
+            model_dir = None
+            for horizon in [15, 60, 120]:  # Try shorter horizons first, then 120-min
+                candidate_dir = ROOT_DIR / "models" / f"{token}_{mode}_{horizon}"
+                if candidate_dir.exists():
+                    model_dir = candidate_dir
+                    break
+            
+            # Fallback to bucket models with horizons
+            if model_dir is None:
+                for horizon in [15, 60, 120]:
+                    candidate_dir = ROOT_DIR / "models" / f"{bucket}_{mode}_{horizon}"
+                    if candidate_dir.exists():
+                        model_dir = candidate_dir
+                        break
+            
+            # Legacy fallback (without horizons) - will be removed eventually
+            if model_dir is None:
+                legacy_dir = ROOT_DIR / "models" / f"{token}_{mode}"
+                if legacy_dir.exists():
+                    model_dir = legacy_dir
+                else:
+                    legacy_bucket_dir = ROOT_DIR / "models" / f"{bucket}_{mode}"
+                    if legacy_bucket_dir.exists():
+                        model_dir = legacy_bucket_dir
 
-            model_path = model_dir / "model.pkl"
-            meta_path = model_dir / "metadata.json"
-            if not model_path.exists() or not meta_path.exists():
-                print(f"[warn] model artifacts missing: {model_dir}")
+            if model_dir is None:
+                print(f"[warn] no model found for {token}_{mode} (checked horizons 15,60,120 and legacy)")
                 continue
 
-            with open(meta_path) as fp:
-                meta = json.load(fp)
-            feature_cols = meta.get("feature_cols")
-            if not feature_cols:
-                print(f"[warn] feature_cols missing in metadata for {model_dir}")
-                continue
-
-            try:
-                model = joblib.load(model_path)
-                live_feats, latest_ts_ms = build_live_features(token, feature_cols)
-                if live_feats.is_empty():
-                    print(f"[warn] no features for {token}")
+            # ---------- collect per-horizon probabilities ----------
+            horizon_probs: list[float] = []
+            trained_ats: list[int] = []
+            infer_latency = 0
+            for horizon in (15, 60, 120):
+                specific_dir = ROOT_DIR / "models" / f"{token}_{mode}_{horizon}"
+                if not specific_dir.exists():
                     continue
-                    
+                model_path = specific_dir / "model.pkl"
+                meta_path = specific_dir / "metadata.json"
+                if not model_path.exists() or not meta_path.exists():
+                    continue
                 try:
-                    pred_proba = model.predict_proba(live_feats.to_numpy())
-                    if hasattr(pred_proba, 'ndim') and pred_proba.ndim == 2 and pred_proba.shape[1] > 1:
-                        proba = float(pred_proba[0, 1])  # binary classification
+                    with open(meta_path) as fp:
+                        meta = json.load(fp)
+                    # --- Performance gate ---
+                    if meta.get("roc_auc", 0) < 0.60:
+                        # Horizon fails quality; skip using its probability
+                        continue
+                    feature_cols = meta.get("feature_cols")
+                    if not feature_cols:
+                        continue
+                    model = joblib.load(model_path)
+                    live_feats, latest_ts_ms = build_live_features(token, feature_cols)
+                    if live_feats.is_empty():
+                        continue
+                    raw_prob = model.predict_proba(live_feats.to_numpy())
+                    raw_p = float(raw_prob[0, 1] if raw_prob.ndim == 2 else raw_prob[0])
+                    calib_path = specific_dir / "calibrator.pkl"
+                    if calib_path.exists():
+                        try:
+                            calibrator = joblib.load(calib_path)
+                            prob = float(calibrator.predict([raw_p])[0])
+                        except Exception:
+                            prob = raw_p
                     else:
-                        proba = float(pred_proba[0])  # single probability
-                except Exception as pred_err:
-                    print(f"[debug] {token}_{mode} pred error: {pred_err}")
-                    print(f"[debug] pred_proba type: {type(pred_proba) if 'pred_proba' in locals() else 'undefined'}")
-                    print(f"[debug] pred_proba value: {pred_proba if 'pred_proba' in locals() else 'undefined'}")
+                        prob = raw_p
+                    horizon_probs.append(prob)
+                    trained_ats.append(int(meta.get("trained_at", 0)))
+                    infer_latency = max(infer_latency, int(timestamp()*1000 - latest_ts_ms))
+                except Exception as e:
+                    print(f"[warn] horizon {horizon} failed for {token}_{mode}: {e}")
                     continue
-                    
-                try:
-                    infer_latency = int(timestamp()*1000 - latest_ts_ms)
-                except Exception as lat_err:
-                    print(f"[debug] {token}_{mode} latency error: {lat_err}, latest_ts_ms={latest_ts_ms}, type={type(latest_ts_ms)}")
-                    infer_latency = 0
 
-                latency_g.labels(model_id=f"{token}_{mode}").set(infer_latency)
+            if not horizon_probs:
+                # No reliable horizons – output neutral low prob
+                proba = 0.10
+            else:
+                proba = float(np.mean(horizon_probs))
+            latency_g.labels(model_id=f"{token}_{mode}").set(infer_latency)
+            signal_type = (
+                "buy" if (mode == "long" and proba > 0.6) else
+                "sell" if (mode == "short" and proba > 0.6) else
+                "neutral"
+            )
+            signal = {
+                "timestamp": int(timestamp()),
+                "model_id": f"{token}_{mode}_v{str(max(trained_ats) if trained_ats else 0)[:10]}",
+                "signal": signal_type,
+                "probability": proba,
+                "expires_at": int(timestamp() + 3600),
+            }
+            out_path = SIGNALS_DIR / f"{token}_{mode}.json"
+            dump_json(signal, out_path)
+            signal_g.labels(model_id=signal["model_id"], signal=signal_type).inc()
+            print(f"[+] {signal_type} {token}({mode}) → {proba:.2f}")
 
-                signal_type = (
-                    "buy" if (mode == "long" and proba > 0.6) else
-                    "sell" if (mode == "short" and proba > 0.6) else
-                    "neutral"
-                )
 
-                signal = {
-                    "timestamp": int(timestamp()),
-                    "model_id": f"{token}_{mode}_v{str(meta['trained_at'])[:10]}",
-                    "signal": signal_type,
-                    "probability": proba,
-                    "expires_at": int(timestamp() + 3600),
-                }
-                out_path = SIGNALS_DIR / f"{token}_{mode}.json"
-                dump_json(signal, out_path)
-                signal_g.labels(model_id=signal["model_id"], signal=signal_type).inc()
-                print(f"[+] {signal_type} {token}({mode}) → {proba:.2f}")
-            except Exception as e:
-                print(f"[error] {token}_{mode}: {e}")
-                continue
-
-    if not args.dry_run:
-        push_to_gateway(PUSHGATEWAY_URL, job="crypto-models-infer", registry=registry)
+    if not args.dry_run and PUSHGATEWAY_URL:
+        try:
+            push_to_gateway(PUSHGATEWAY_URL, job="crypto-models-infer", registry=registry)
+        except Exception as e:  # noqa: BLE001
+            if os.getenv("PROMETHEUS_VERBOSE") == "1":
+                print(f"[warn] pushgateway failed: {e}")
 
 
 if __name__ == "__main__":

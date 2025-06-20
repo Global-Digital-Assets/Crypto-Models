@@ -1,0 +1,101 @@
+models:
+  - token: BTCUSDT
+    modes: [long, short]
+  - token: ETHUSDT
+    modes: [long, short,long]
+  - token: SOLUSDT
+    modes: [long, short,long]
+  - token: DOGEUSDT
+    modes: [long]
+  - token: SHIBUSDT
+    modes: [long]
+  - token: PEPEUSDT
+    modes: [long]
+  - token: WIFUSDT
+    modes: [long]
+  - token: APTUSDT
+    modes: [long]
+  - token: ARBUSDT
+    modes: [long]
+  - token: BONKUSDT
+    modes: [long]
+  - token: PORTALUSDT
+    modes: [long]
+  - token: PYTHUSDT
+    modes: [long]
+  - token: SUIUSDT
+    modes: [long]
+  - token: SUSHIUSDT
+    modes: [long]
+  - token: TAOUSDT
+    modes: [long]
+  - token: THETAUSDT
+    modes: [long]
+  - token: TIAUSDT
+    modes: [long]
+  - token: TRBUSDT
+    modes: [long]
+  - token: ZECUSDT
+    modes: [long]
+  - token: ZKUSDT
+    modes: [long]
+  - token: AAVEUSDT
+    modes: [long]
+  - token: ACHUSDT
+    modes: [long]
+  - token: ARDRUSDT
+    modes: [long]
+  - token: AXSUSDT
+    modes: [long]
+  - token: BCHUSDT
+    modes: [long]
+  - token: BLURUSDT
+    modes: [long]
+  - token: BOMEUSDT
+    modes: [long]
+  - token: COMPUSDT
+    modes: [long]
+  - token: DYDXUSDT
+    modes: [long]
+  - token: DYMUSDT
+    modes: [long]
+  - token: EIGENUSDT
+    modes: [long]
+  - token: AVAXUSDT
+    modes: [long]
+  - token: CFXUSDT
+    modes: [long]
+  - token: EGLDUSDT
+    modes: [long]
+  - token: ZILUSDT
+    modes: [long]
+  - token: ADAUSDT
+    modes: [long]
+  - token: ALGOUSDT
+    modes: [long]
+  - token: AMPUSDT
+    modes: [long]
+  - token: ATOMUSDT
+    modes: [long]
+  - token: BATUSDT
+    modes: [long]
+  - token: C98USDT
+    modes: [long]
+  - token: CHZUSDT
+    modes: [long]
+  - token: DASHUSDT
+    modes: [long]
+  - token: DOTUSDT
+    modes: [long]
+  - token: ENAUSDT
+    modes: [long]
+  - token: ENJUSDT
+    modes: [long]
+  - token: ENSUSDT
+    modes: [long]
+  - token: ETCUSDT
+    modes: [long]
+  - token: FETUSDT
+    modes: [long]
+  - token: FILUSDT
+    modes: [long]

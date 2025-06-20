@@ -1,0 +1,30 @@
+[+] saved model → /root/crypto-models/models/M-M_long_15/model.pkl | ROC-AUC=0.657
+[+] saved model → /root/crypto-models/models/M-M_long_60/model.pkl | ROC-AUC=0.6253
+[+] saved model → /root/crypto-models/models/M-M_short_15/model.pkl | ROC-AUC=0.5543
+[+] saved model → /root/crypto-models/models/M-M_short_60/model.pkl | ROC-AUC=0.5527
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 179, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 156, in main
+    roc_auc = roc_auc_score(y_val, val_pred)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/sklearn/utils/_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/sklearn/metrics/_ranking.py", line 627, in roc_auc_score
+    return _average_binary_score(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/sklearn/metrics/_base.py", line 75, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/sklearn/metrics/_ranking.py", line 382, in _binary_roc_auc_score
+    raise ValueError(
+ValueError: Only one class present in y_true. ROC AUC score is not defined in that case.
+Traceback (most recent call last):
+  File "/root/crypto-models/train/run_all.py", line 58, in <module>
+    main()
+  File "/root/crypto-models/train/run_all.py", line 48, in main
+    subprocess.run([
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/root/crypto-models/venv/bin/python', '/root/crypto-models/train/train.py', 'BTCUSDT', '--mode', 'long', '--horizon', '15']' returned non-zero exit status 1.

@@ -1,0 +1,203 @@
+models:
+- modes:
+  - long
+  - short
+  token: BTCUSDT
+- modes:
+  - long
+  - short
+  - long
+  token: ETHUSDT
+- modes:
+  - long
+  - short
+  - long
+  token: SOLUSDT
+- modes:
+  - long
+  - short
+  token: DOGEUSDT
+- modes:
+  - long
+  - short
+  token: SHIBUSDT
+- modes:
+  - long
+  - short
+  token: PEPEUSDT
+- modes:
+  - long
+  - short
+  token: WIFUSDT
+- modes:
+  - long
+  - short
+  token: APTUSDT
+- modes:
+  - long
+  - short
+  token: ARBUSDT
+- modes:
+  - long
+  - short
+  token: BONKUSDT
+- modes:
+  - long
+  - short
+  token: PORTALUSDT
+- modes:
+  - long
+  - short
+  token: PYTHUSDT
+- modes:
+  - long
+  - short
+  token: SUIUSDT
+- modes:
+  - long
+  - short
+  token: SUSHIUSDT
+- modes:
+  - long
+  - short
+  token: TAOUSDT
+- modes:
+  - long
+  - short
+  token: THETAUSDT
+- modes:
+  - long
+  - short
+  token: TIAUSDT
+- modes:
+  - long
+  - short
+  token: TRBUSDT
+- modes:
+  - long
+  - short
+  token: ZECUSDT
+- modes:
+  - long
+  - short
+  token: ZKUSDT
+- modes:
+  - long
+  - short
+  token: AAVEUSDT
+- modes:
+  - long
+  - short
+  token: ACHUSDT
+- modes:
+  - long
+  - short
+  token: ARDRUSDT
+- modes:
+  - long
+  - short
+  token: AXSUSDT
+- modes:
+  - long
+  - short
+  token: BCHUSDT
+- modes:
+  - long
+  - short
+  token: BLURUSDT
+- modes:
+  - long
+  - short
+  token: BOMEUSDT
+- modes:
+  - long
+  - short
+  token: COMPUSDT
+- modes:
+  - long
+  - short
+  token: DYDXUSDT
+- modes:
+  - long
+  - short
+  token: DYMUSDT
+- modes:
+  - long
+  - short
+  token: EIGENUSDT
+- modes:
+  - long
+  - short
+  token: AVAXUSDT
+- modes:
+  - long
+  - short
+  token: CFXUSDT
+- modes:
+  - long
+  - short
+  token: EGLDUSDT
+- modes:
+  - long
+  - short
+  token: ZILUSDT
+- modes:
+  - long
+  - short
+  token: ADAUSDT
+- modes:
+  - long
+  - short
+  token: ALGOUSDT
+- modes:
+  - long
+  - short
+  token: AMPUSDT
+- modes:
+  - long
+  - short
+  token: ATOMUSDT
+- modes:
+  - long
+  - short
+  token: BATUSDT
+- modes:
+  - long
+  - short
+  token: C98USDT
+- modes:
+  - long
+  - short
+  token: CHZUSDT
+- modes:
+  - long
+  - short
+  token: DASHUSDT
+- modes:
+  - long
+  - short
+  token: DOTUSDT
+- modes:
+  - long
+  - short
+  token: ENAUSDT
+- modes:
+  - long
+  - short
+  token: ENJUSDT
+- modes:
+  - long
+  - short
+  token: ENSUSDT
+- modes:
+  - long
+  - short
+  token: ETCUSDT
+- modes:
+  - long
+  - short
+  token: FETUSDT
+- modes:
+  - long
+  - short
+  token: FILUSDT

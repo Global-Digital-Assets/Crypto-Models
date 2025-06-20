@@ -1,0 +1,519 @@
+[+] saved model → /root/crypto-models/models/M-M_long_15/model.pkl | ROC-AUC=0.657
+[+] saved model → /root/crypto-models/models/M-M_long_60/model.pkl | ROC-AUC=0.6253
+[+] saved model → /root/crypto-models/models/M-M_short_15/model.pkl | ROC-AUC=0.5543
+[+] saved model → /root/crypto-models/models/M-M_short_60/model.pkl | ROC-AUC=0.5527
+[+] saved model → /root/crypto-models/models/1000BONKUSDT_long_15/model.pkl | ROC-AUC=0.7108
+[+] saved model → /root/crypto-models/models/1000BONKUSDT_long_60/model.pkl | ROC-AUC=0.6699
+[+] saved model → /root/crypto-models/models/1000BONKUSDT_short_15/model.pkl | ROC-AUC=0.7571
+[+] saved model → /root/crypto-models/models/1000BONKUSDT_short_60/model.pkl | ROC-AUC=0.6785
+[+] saved model → /root/crypto-models/models/1000FLOKIUSDT_long_15/model.pkl | ROC-AUC=0.6553
+[+] saved model → /root/crypto-models/models/1000FLOKIUSDT_long_60/model.pkl | ROC-AUC=0.4226
+[+] saved model → /root/crypto-models/models/1000FLOKIUSDT_short_15/model.pkl | ROC-AUC=0.6482
+[+] saved model → /root/crypto-models/models/1000FLOKIUSDT_short_60/model.pkl | ROC-AUC=0.6807
+[+] saved model → /root/crypto-models/models/1000LUNCUSDT_long_15/model.pkl | ROC-AUC=0.7536
+[+] saved model → /root/crypto-models/models/1000LUNCUSDT_long_60/model.pkl | ROC-AUC=0.631
+[+] saved model → /root/crypto-models/models/1000LUNCUSDT_short_15/model.pkl | ROC-AUC=0.7304
+[+] saved model → /root/crypto-models/models/1000LUNCUSDT_short_60/model.pkl | ROC-AUC=0.6862
+[+] saved model → /root/crypto-models/models/1000PEPEUSDT_long_15/model.pkl | ROC-AUC=0.6432
+[+] saved model → /root/crypto-models/models/1000PEPEUSDT_long_60/model.pkl | ROC-AUC=0.5659
+[+] saved model → /root/crypto-models/models/1000PEPEUSDT_short_15/model.pkl | ROC-AUC=0.8325
+[+] saved model → /root/crypto-models/models/1000PEPEUSDT_short_60/model.pkl | ROC-AUC=0.6993
+[+] saved model → /root/crypto-models/models/1000SATSUSDT_long_15/model.pkl | ROC-AUC=0.6454
+[+] saved model → /root/crypto-models/models/1000SATSUSDT_long_60/model.pkl | ROC-AUC=0.5468
+[+] saved model → /root/crypto-models/models/1000SATSUSDT_short_15/model.pkl | ROC-AUC=0.647
+[+] saved model → /root/crypto-models/models/1000SATSUSDT_short_60/model.pkl | ROC-AUC=0.6301
+[+] saved model → /root/crypto-models/models/1000SHIBUSDT_long_15/model.pkl | ROC-AUC=0.8302
+[+] saved model → /root/crypto-models/models/1000SHIBUSDT_long_60/model.pkl | ROC-AUC=0.7533
+[+] saved model → /root/crypto-models/models/1000SHIBUSDT_short_15/model.pkl | ROC-AUC=0.7766
+[+] saved model → /root/crypto-models/models/1000SHIBUSDT_short_60/model.pkl | ROC-AUC=0.7151
+[warn] 1INCHUSDT not enough samples (53) – skipping model.
+[warn] 1INCHUSDT not enough samples (51) – skipping model.
+[warn] 1INCHUSDT not enough samples (53) – skipping model.
+[warn] 1INCHUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/AAVEUSDT_long_15/model.pkl | ROC-AUC=0.6267
+[+] saved model → /root/crypto-models/models/AAVEUSDT_long_60/model.pkl | ROC-AUC=0.5058
+[+] saved model → /root/crypto-models/models/AAVEUSDT_short_15/model.pkl | ROC-AUC=0.6594
+[+] saved model → /root/crypto-models/models/AAVEUSDT_short_60/model.pkl | ROC-AUC=0.5989
+[+] saved model → /root/crypto-models/models/ACHUSDT_long_15/model.pkl | ROC-AUC=0.7306
+[+] saved model → /root/crypto-models/models/ACHUSDT_long_60/model.pkl | ROC-AUC=0.5509
+[+] saved model → /root/crypto-models/models/ACHUSDT_short_15/model.pkl | ROC-AUC=0.5525
+[+] saved model → /root/crypto-models/models/ACHUSDT_short_60/model.pkl | ROC-AUC=0.5297
+[+] saved model → /root/crypto-models/models/ADAUSDT_long_15/model.pkl | ROC-AUC=0.7213
+[+] saved model → /root/crypto-models/models/ADAUSDT_long_60/model.pkl | ROC-AUC=0.5174
+[+] saved model → /root/crypto-models/models/ADAUSDT_short_15/model.pkl | ROC-AUC=0.7909
+[+] saved model → /root/crypto-models/models/ADAUSDT_short_60/model.pkl | ROC-AUC=0.5757
+[warn] ADXUSDT not enough samples (53) – skipping model.
+[warn] ADXUSDT not enough samples (51) – skipping model.
+[warn] ADXUSDT not enough samples (53) – skipping model.
+[warn] ADXUSDT not enough samples (51) – skipping model.
+[warn] AGLDUSDT not enough samples (53) – skipping model.
+[warn] AGLDUSDT not enough samples (51) – skipping model.
+[warn] AGLDUSDT not enough samples (53) – skipping model.
+[warn] AGLDUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/ALGOUSDT_long_15/model.pkl | ROC-AUC=0.6208
+[+] saved model → /root/crypto-models/models/ALGOUSDT_long_60/model.pkl | ROC-AUC=0.5031
+[+] saved model → /root/crypto-models/models/ALGOUSDT_short_15/model.pkl | ROC-AUC=0.6068
+[+] saved model → /root/crypto-models/models/ALGOUSDT_short_60/model.pkl | ROC-AUC=0.6033
+[warn] ALPACAUSDT not enough samples (52) – skipping model.
+[warn] ALPACAUSDT not enough samples (50) – skipping model.
+[warn] ALPACAUSDT not enough samples (52) – skipping model.
+[warn] ALPACAUSDT not enough samples (50) – skipping model.
+[warn] ALPHAUSDT not enough samples (53) – skipping model.
+[warn] ALPHAUSDT not enough samples (51) – skipping model.
+[warn] ALPHAUSDT not enough samples (53) – skipping model.
+[warn] ALPHAUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/AMPUSDT_long_15/model.pkl | ROC-AUC=0.5168
+[+] saved model → /root/crypto-models/models/AMPUSDT_long_60/model.pkl | ROC-AUC=0.6047
+[+] saved model → /root/crypto-models/models/AMPUSDT_short_15/model.pkl | ROC-AUC=0.6435
+[+] saved model → /root/crypto-models/models/AMPUSDT_short_60/model.pkl | ROC-AUC=0.5761
+[warn] ANKRUSDT not enough samples (53) – skipping model.
+[warn] ANKRUSDT not enough samples (51) – skipping model.
+[warn] ANKRUSDT not enough samples (53) – skipping model.
+[warn] ANKRUSDT not enough samples (51) – skipping model.
+[warn] APEUSDT not enough samples (53) – skipping model.
+[warn] APEUSDT not enough samples (51) – skipping model.
+[warn] APEUSDT not enough samples (53) – skipping model.
+[warn] APEUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/APTUSDT_long_15/model.pkl | ROC-AUC=0.7862
+[+] saved model → /root/crypto-models/models/APTUSDT_long_60/model.pkl | ROC-AUC=0.5257
+[+] saved model → /root/crypto-models/models/APTUSDT_short_15/model.pkl | ROC-AUC=0.8414
+[+] saved model → /root/crypto-models/models/APTUSDT_short_60/model.pkl | ROC-AUC=0.6675
+[+] saved model → /root/crypto-models/models/ARBUSDT_long_15/model.pkl | ROC-AUC=0.4005
+[+] saved model → /root/crypto-models/models/ARBUSDT_long_60/model.pkl | ROC-AUC=0.4799
+[+] saved model → /root/crypto-models/models/ARBUSDT_short_15/model.pkl | ROC-AUC=0.7844
+[+] saved model → /root/crypto-models/models/ARBUSDT_short_60/model.pkl | ROC-AUC=0.5157
+[+] saved model → /root/crypto-models/models/ARDRUSDT_long_15/model.pkl | ROC-AUC=0.6808
+[+] saved model → /root/crypto-models/models/ARDRUSDT_long_60/model.pkl | ROC-AUC=0.5667
+[+] saved model → /root/crypto-models/models/ARDRUSDT_short_15/model.pkl | ROC-AUC=0.7937
+[+] saved model → /root/crypto-models/models/ARDRUSDT_short_60/model.pkl | ROC-AUC=0.7419
+[+] saved model → /root/crypto-models/models/ATOMUSDT_long_15/model.pkl | ROC-AUC=0.6979
+[+] saved model → /root/crypto-models/models/ATOMUSDT_long_60/model.pkl | ROC-AUC=0.5762
+[+] saved model → /root/crypto-models/models/ATOMUSDT_short_15/model.pkl | ROC-AUC=0.8066
+[+] saved model → /root/crypto-models/models/ATOMUSDT_short_60/model.pkl | ROC-AUC=0.6761
+[warn] AUCTIONUSDT not enough samples (53) – skipping model.
+[warn] AUCTIONUSDT not enough samples (51) – skipping model.
+[warn] AUCTIONUSDT not enough samples (53) – skipping model.
+[warn] AUCTIONUSDT not enough samples (51) – skipping model.
+[warn] AUTOUSDT not enough samples (52) – skipping model.
+[warn] AUTOUSDT not enough samples (50) – skipping model.
+[warn] AUTOUSDT not enough samples (52) – skipping model.
+[warn] AUTOUSDT not enough samples (50) – skipping model.
+[+] saved model → /root/crypto-models/models/AVAXUSDT_long_15/model.pkl | ROC-AUC=0.6584
+[+] saved model → /root/crypto-models/models/AVAXUSDT_long_60/model.pkl | ROC-AUC=0.4709
+[+] saved model → /root/crypto-models/models/AVAXUSDT_short_15/model.pkl | ROC-AUC=0.5889
+[+] saved model → /root/crypto-models/models/AVAXUSDT_short_60/model.pkl | ROC-AUC=0.5336
+[+] saved model → /root/crypto-models/models/AXSUSDT_long_15/model.pkl | ROC-AUC=0.6624
+[+] saved model → /root/crypto-models/models/AXSUSDT_long_60/model.pkl | ROC-AUC=0.4985
+[+] saved model → /root/crypto-models/models/AXSUSDT_short_15/model.pkl | ROC-AUC=0.6696
+[+] saved model → /root/crypto-models/models/AXSUSDT_short_60/model.pkl | ROC-AUC=0.6148
+Features parquet not found: /root/crypto-models/features/BABYDOGEUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/BABYDOGEUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/BABYDOGEUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/BABYDOGEUSDT.parquet. Run features/build_features.py first.
+[warn] BAKEUSDT not enough samples (53) – skipping model.
+[warn] BAKEUSDT not enough samples (51) – skipping model.
+[warn] BAKEUSDT not enough samples (53) – skipping model.
+[warn] BAKEUSDT not enough samples (51) – skipping model.
+[warn] BALUSDT not enough samples (52) – skipping model.
+[warn] BALUSDT not enough samples (50) – skipping model.
+[warn] BALUSDT not enough samples (52) – skipping model.
+[warn] BALUSDT not enough samples (50) – skipping model.
+[warn] BANDUSDT not enough samples (53) – skipping model.
+[warn] BANDUSDT not enough samples (51) – skipping model.
+[warn] BANDUSDT not enough samples (53) – skipping model.
+[warn] BANDUSDT not enough samples (51) – skipping model.
+[warn] Single class in validation set for BATUSDT_long_15 - using accuracy fallback
+[+] saved model → /root/crypto-models/models/BATUSDT_long_15/model.pkl | ROC-AUC=1.0
+[+] saved model → /root/crypto-models/models/BATUSDT_long_60/model.pkl | ROC-AUC=0.482
+[+] saved model → /root/crypto-models/models/BATUSDT_short_15/model.pkl | ROC-AUC=0.4549
+[+] saved model → /root/crypto-models/models/BATUSDT_short_60/model.pkl | ROC-AUC=0.6887
+[+] saved model → /root/crypto-models/models/BCHUSDT_long_15/model.pkl | ROC-AUC=0.6212
+[+] saved model → /root/crypto-models/models/BCHUSDT_long_60/model.pkl | ROC-AUC=0.4994
+[+] saved model → /root/crypto-models/models/BCHUSDT_short_15/model.pkl | ROC-AUC=0.6549
+[+] saved model → /root/crypto-models/models/BCHUSDT_short_60/model.pkl | ROC-AUC=0.4728
+[warn] BEAMUSDT not enough samples (52) – skipping model.
+[warn] BEAMUSDT not enough samples (50) – skipping model.
+[warn] BEAMUSDT not enough samples (52) – skipping model.
+[warn] BEAMUSDT not enough samples (50) – skipping model.
+[warn] BETAUSDT not enough samples (52) – skipping model.
+[warn] BETAUSDT not enough samples (50) – skipping model.
+[warn] BETAUSDT not enough samples (52) – skipping model.
+[warn] BETAUSDT not enough samples (50) – skipping model.
+[+] saved model → /root/crypto-models/models/BLURUSDT_long_15/model.pkl | ROC-AUC=0.3231
+[+] saved model → /root/crypto-models/models/BLURUSDT_long_60/model.pkl | ROC-AUC=0.4611
+[+] saved model → /root/crypto-models/models/BLURUSDT_short_15/model.pkl | ROC-AUC=0.7951
+[+] saved model → /root/crypto-models/models/BLURUSDT_short_60/model.pkl | ROC-AUC=0.5349
+[warn] Single class in validation set for BNBUSDT_long_15 - using accuracy fallback
+[+] saved model → /root/crypto-models/models/BNBUSDT_long_15/model.pkl | ROC-AUC=1.0
+[+] saved model → /root/crypto-models/models/BNBUSDT_long_60/model.pkl | ROC-AUC=0.5964
+[+] saved model → /root/crypto-models/models/BNBUSDT_short_15/model.pkl | ROC-AUC=0.6374
+[+] saved model → /root/crypto-models/models/BNBUSDT_short_60/model.pkl | ROC-AUC=0.9415
+[warn] BNTUSDT not enough samples (53) – skipping model.
+[warn] BNTUSDT not enough samples (51) – skipping model.
+[warn] BNTUSDT not enough samples (53) – skipping model.
+[warn] BNTUSDT not enough samples (51) – skipping model.
+[warn] BNXUSDT not enough samples (52) – skipping model.
+[warn] BNXUSDT not enough samples (50) – skipping model.
+[warn] BNXUSDT not enough samples (52) – skipping model.
+[warn] BNXUSDT not enough samples (50) – skipping model.
+[+] saved model → /root/crypto-models/models/BOMEUSDT_long_15/model.pkl | ROC-AUC=0.5081
+[+] saved model → /root/crypto-models/models/BOMEUSDT_long_60/model.pkl | ROC-AUC=0.5222
+[+] saved model → /root/crypto-models/models/BOMEUSDT_short_15/model.pkl | ROC-AUC=0.6148
+[+] saved model → /root/crypto-models/models/BOMEUSDT_short_60/model.pkl | ROC-AUC=0.6023
+[+] saved model → /root/crypto-models/models/BONKUSDT_long_15/model.pkl | ROC-AUC=0.542
+[+] saved model → /root/crypto-models/models/BONKUSDT_long_60/model.pkl | ROC-AUC=0.5689
+[+] saved model → /root/crypto-models/models/BONKUSDT_short_15/model.pkl | ROC-AUC=0.4317
+[+] saved model → /root/crypto-models/models/BONKUSDT_short_60/model.pkl | ROC-AUC=0.5918
+[warn] Single class in validation set for BTCUSDT_long_15 - using accuracy fallback
+[+] saved model → /root/crypto-models/models/BTCUSDT_long_15/model.pkl | ROC-AUC=1.0
+[+] saved model → /root/crypto-models/models/BTCUSDT_long_60/model.pkl | ROC-AUC=0.4723
+[+] saved model → /root/crypto-models/models/BTCUSDT_short_15/model.pkl | ROC-AUC=0.0851
+[+] saved model → /root/crypto-models/models/BTCUSDT_short_60/model.pkl | ROC-AUC=0.5167
+[warn] BURGERUSDT not enough samples (52) – skipping model.
+[warn] BURGERUSDT not enough samples (50) – skipping model.
+[warn] BURGERUSDT not enough samples (52) – skipping model.
+[warn] BURGERUSDT not enough samples (50) – skipping model.
+[+] saved model → /root/crypto-models/models/C98USDT_long_15/model.pkl | ROC-AUC=0.3859
+[+] saved model → /root/crypto-models/models/C98USDT_long_60/model.pkl | ROC-AUC=0.5383
+[+] saved model → /root/crypto-models/models/C98USDT_short_15/model.pkl | ROC-AUC=0.6053
+[+] saved model → /root/crypto-models/models/C98USDT_short_60/model.pkl | ROC-AUC=0.4677
+[warn] CAKEUSDT not enough samples (53) – skipping model.
+[warn] CAKEUSDT not enough samples (51) – skipping model.
+[warn] CAKEUSDT not enough samples (53) – skipping model.
+[warn] CAKEUSDT not enough samples (51) – skipping model.
+[warn] CELOUSDT not enough samples (53) – skipping model.
+[warn] CELOUSDT not enough samples (51) – skipping model.
+[warn] CELOUSDT not enough samples (53) – skipping model.
+[warn] CELOUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/CFXUSDT_long_15/model.pkl | ROC-AUC=0.483
+[+] saved model → /root/crypto-models/models/CFXUSDT_long_60/model.pkl | ROC-AUC=0.4428
+[+] saved model → /root/crypto-models/models/CFXUSDT_short_15/model.pkl | ROC-AUC=0.7017
+[+] saved model → /root/crypto-models/models/CFXUSDT_short_60/model.pkl | ROC-AUC=0.5729
+[+] saved model → /root/crypto-models/models/CHZUSDT_long_15/model.pkl | ROC-AUC=0.2465
+[+] saved model → /root/crypto-models/models/CHZUSDT_long_60/model.pkl | ROC-AUC=0.6158
+[+] saved model → /root/crypto-models/models/CHZUSDT_short_15/model.pkl | ROC-AUC=0.6312
+[+] saved model → /root/crypto-models/models/CHZUSDT_short_60/model.pkl | ROC-AUC=0.5345
+[warn] CITYUSDT not enough samples (53) – skipping model.
+[warn] CITYUSDT not enough samples (51) – skipping model.
+[warn] CITYUSDT not enough samples (53) – skipping model.
+[warn] CITYUSDT not enough samples (51) – skipping model.
+[warn] COCOSUSDT not enough samples (52) – skipping model.
+[warn] COCOSUSDT not enough samples (50) – skipping model.
+[warn] COCOSUSDT not enough samples (52) – skipping model.
+[warn] COCOSUSDT not enough samples (50) – skipping model.
+[+] saved model → /root/crypto-models/models/COMPUSDT_long_15/model.pkl | ROC-AUC=0.561
+[+] saved model → /root/crypto-models/models/COMPUSDT_long_60/model.pkl | ROC-AUC=0.4778
+[+] saved model → /root/crypto-models/models/COMPUSDT_short_15/model.pkl | ROC-AUC=0.6223
+[+] saved model → /root/crypto-models/models/COMPUSDT_short_60/model.pkl | ROC-AUC=0.5911
+[warn] COOKIEUSDT not enough samples (53) – skipping model.
+[warn] COOKIEUSDT not enough samples (51) – skipping model.
+[warn] COOKIEUSDT not enough samples (53) – skipping model.
+[warn] COOKIEUSDT not enough samples (51) – skipping model.
+[warn] COSUSDT not enough samples (53) – skipping model.
+[warn] COSUSDT not enough samples (51) – skipping model.
+[warn] COSUSDT not enough samples (53) – skipping model.
+[warn] COSUSDT not enough samples (51) – skipping model.
+[warn] COTIUSDT not enough samples (53) – skipping model.
+[warn] COTIUSDT not enough samples (51) – skipping model.
+[warn] COTIUSDT not enough samples (53) – skipping model.
+[warn] COTIUSDT not enough samples (51) – skipping model.
+[warn] CRVUSDT not enough samples (53) – skipping model.
+[warn] CRVUSDT not enough samples (51) – skipping model.
+[warn] CRVUSDT not enough samples (53) – skipping model.
+[warn] CRVUSDT not enough samples (51) – skipping model.
+[warn] CTSIUSDT not enough samples (53) – skipping model.
+[warn] CTSIUSDT not enough samples (51) – skipping model.
+[warn] CTSIUSDT not enough samples (53) – skipping model.
+[warn] CTSIUSDT not enough samples (51) – skipping model.
+[warn] CVPUSDT not enough samples (52) – skipping model.
+[warn] CVPUSDT not enough samples (50) – skipping model.
+[warn] CVPUSDT not enough samples (52) – skipping model.
+[warn] CVPUSDT not enough samples (50) – skipping model.
+[warn] DARUSDT not enough samples (52) – skipping model.
+[warn] DARUSDT not enough samples (50) – skipping model.
+[warn] DARUSDT not enough samples (52) – skipping model.
+[warn] DARUSDT not enough samples (50) – skipping model.
+[+] saved model → /root/crypto-models/models/DASHUSDT_long_15/model.pkl | ROC-AUC=0.5417
+[+] saved model → /root/crypto-models/models/DASHUSDT_long_60/model.pkl | ROC-AUC=0.6867
+[+] saved model → /root/crypto-models/models/DASHUSDT_short_15/model.pkl | ROC-AUC=0.801
+[+] saved model → /root/crypto-models/models/DASHUSDT_short_60/model.pkl | ROC-AUC=0.543
+Features parquet not found: /root/crypto-models/features/DATAGTUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/DATAGTUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/DATAGTUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/DATAGTUSDT.parquet. Run features/build_features.py first.
+[warn] DENTUSDT not enough samples (53) – skipping model.
+[warn] DENTUSDT not enough samples (51) – skipping model.
+[warn] DENTUSDT not enough samples (53) – skipping model.
+[warn] DENTUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/DOGEUSDT_long_15/model.pkl | ROC-AUC=0.5448
+[+] saved model → /root/crypto-models/models/DOGEUSDT_long_60/model.pkl | ROC-AUC=0.4618
+[+] saved model → /root/crypto-models/models/DOGEUSDT_short_15/model.pkl | ROC-AUC=0.6828
+[+] saved model → /root/crypto-models/models/DOGEUSDT_short_60/model.pkl | ROC-AUC=0.5355
+[warn] Single class in validation set for DOTUSDT_long_15 - using accuracy fallback
+[+] saved model → /root/crypto-models/models/DOTUSDT_long_15/model.pkl | ROC-AUC=0.9983
+[+] saved model → /root/crypto-models/models/DOTUSDT_long_60/model.pkl | ROC-AUC=0.4329
+[+] saved model → /root/crypto-models/models/DOTUSDT_short_15/model.pkl | ROC-AUC=0.865
+[+] saved model → /root/crypto-models/models/DOTUSDT_short_60/model.pkl | ROC-AUC=0.6916
+[warn] DREPUSDT not enough samples (52) – skipping model.
+[warn] DREPUSDT not enough samples (50) – skipping model.
+[warn] DREPUSDT not enough samples (52) – skipping model.
+[warn] DREPUSDT not enough samples (50) – skipping model.
+[warn] DUSKUSDT not enough samples (53) – skipping model.
+[warn] DUSKUSDT not enough samples (51) – skipping model.
+[warn] DUSKUSDT not enough samples (53) – skipping model.
+[warn] DUSKUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/DYDXUSDT_long_15/model.pkl | ROC-AUC=0.4628
+[+] saved model → /root/crypto-models/models/DYDXUSDT_long_60/model.pkl | ROC-AUC=0.449
+[+] saved model → /root/crypto-models/models/DYDXUSDT_short_15/model.pkl | ROC-AUC=0.6066
+[+] saved model → /root/crypto-models/models/DYDXUSDT_short_60/model.pkl | ROC-AUC=0.665
+[+] saved model → /root/crypto-models/models/DYMUSDT_long_15/model.pkl | ROC-AUC=0.4735
+[+] saved model → /root/crypto-models/models/DYMUSDT_long_60/model.pkl | ROC-AUC=0.5217
+[+] saved model → /root/crypto-models/models/DYMUSDT_short_15/model.pkl | ROC-AUC=0.6476
+[+] saved model → /root/crypto-models/models/DYMUSDT_short_60/model.pkl | ROC-AUC=0.6371
+[+] saved model → /root/crypto-models/models/EGLDUSDT_long_15/model.pkl | ROC-AUC=0.6514
+[+] saved model → /root/crypto-models/models/EGLDUSDT_long_60/model.pkl | ROC-AUC=0.5914
+[+] saved model → /root/crypto-models/models/EGLDUSDT_short_15/model.pkl | ROC-AUC=0.6888
+[+] saved model → /root/crypto-models/models/EGLDUSDT_short_60/model.pkl | ROC-AUC=0.6071
+[+] saved model → /root/crypto-models/models/EIGENUSDT_long_15/model.pkl | ROC-AUC=0.5235
+[+] saved model → /root/crypto-models/models/EIGENUSDT_long_60/model.pkl | ROC-AUC=0.58
+[+] saved model → /root/crypto-models/models/EIGENUSDT_short_15/model.pkl | ROC-AUC=0.6462
+[+] saved model → /root/crypto-models/models/EIGENUSDT_short_60/model.pkl | ROC-AUC=0.5295
+Features parquet not found: /root/crypto-models/features/ELOMUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/ELOMUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/ELOMUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/ELOMUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/ENAUSDT_long_15/model.pkl | ROC-AUC=0.6004
+[+] saved model → /root/crypto-models/models/ENAUSDT_long_60/model.pkl | ROC-AUC=0.5021
+[+] saved model → /root/crypto-models/models/ENAUSDT_short_15/model.pkl | ROC-AUC=0.6145
+[+] saved model → /root/crypto-models/models/ENAUSDT_short_60/model.pkl | ROC-AUC=0.6402
+[+] saved model → /root/crypto-models/models/ENJUSDT_long_15/model.pkl | ROC-AUC=0.5918
+[+] saved model → /root/crypto-models/models/ENJUSDT_long_60/model.pkl | ROC-AUC=0.5099
+[+] saved model → /root/crypto-models/models/ENJUSDT_short_15/model.pkl | ROC-AUC=0.3785
+[+] saved model → /root/crypto-models/models/ENJUSDT_short_60/model.pkl | ROC-AUC=0.5231
+[+] saved model → /root/crypto-models/models/ENSUSDT_long_15/model.pkl | ROC-AUC=0.7171
+[+] saved model → /root/crypto-models/models/ENSUSDT_long_60/model.pkl | ROC-AUC=0.4264
+[+] saved model → /root/crypto-models/models/ENSUSDT_short_15/model.pkl | ROC-AUC=0.7476
+[+] saved model → /root/crypto-models/models/ENSUSDT_short_60/model.pkl | ROC-AUC=0.588
+[warn] EOSUSDT not enough samples (52) – skipping model.
+[warn] EOSUSDT not enough samples (50) – skipping model.
+[warn] EOSUSDT not enough samples (52) – skipping model.
+[warn] EOSUSDT not enough samples (50) – skipping model.
+[warn] EPXUSDT not enough samples (52) – skipping model.
+[warn] EPXUSDT not enough samples (50) – skipping model.
+[warn] EPXUSDT not enough samples (52) – skipping model.
+[warn] EPXUSDT not enough samples (50) – skipping model.
+[+] saved model → /root/crypto-models/models/ETCUSDT_long_15/model.pkl | ROC-AUC=0.4299
+[+] saved model → /root/crypto-models/models/ETCUSDT_long_60/model.pkl | ROC-AUC=0.5449
+[+] saved model → /root/crypto-models/models/ETCUSDT_short_15/model.pkl | ROC-AUC=0.6986
+[+] saved model → /root/crypto-models/models/ETCUSDT_short_60/model.pkl | ROC-AUC=0.7317
+[+] saved model → /root/crypto-models/models/ETHUSDT_long_15/model.pkl | ROC-AUC=0.7003
+[+] saved model → /root/crypto-models/models/ETHUSDT_long_60/model.pkl | ROC-AUC=0.5827
+[+] saved model → /root/crypto-models/models/ETHUSDT_short_15/model.pkl | ROC-AUC=0.424
+[+] saved model → /root/crypto-models/models/ETHUSDT_short_60/model.pkl | ROC-AUC=0.5485
+[+] saved model → /root/crypto-models/models/FETUSDT_long_15/model.pkl | ROC-AUC=0.5437
+[+] saved model → /root/crypto-models/models/FETUSDT_long_60/model.pkl | ROC-AUC=0.5611
+[+] saved model → /root/crypto-models/models/FETUSDT_short_15/model.pkl | ROC-AUC=0.5982
+[+] saved model → /root/crypto-models/models/FETUSDT_short_60/model.pkl | ROC-AUC=0.4338
+[warn] FIDAUSDT not enough samples (53) – skipping model.
+[warn] FIDAUSDT not enough samples (51) – skipping model.
+[warn] FIDAUSDT not enough samples (53) – skipping model.
+[warn] FIDAUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/FILUSDT_long_15/model.pkl | ROC-AUC=0.4835
+[+] saved model → /root/crypto-models/models/FILUSDT_long_60/model.pkl | ROC-AUC=0.5161
+[+] saved model → /root/crypto-models/models/FILUSDT_short_15/model.pkl | ROC-AUC=0.5153
+[+] saved model → /root/crypto-models/models/FILUSDT_short_60/model.pkl | ROC-AUC=0.6498
+[warn] FIROUSDT not enough samples (52) – skipping model.
+[warn] FIROUSDT not enough samples (50) – skipping model.
+[warn] FIROUSDT not enough samples (52) – skipping model.
+[warn] FIROUSDT not enough samples (50) – skipping model.
+[warn] FISUSDT not enough samples (53) – skipping model.
+[warn] FISUSDT not enough samples (51) – skipping model.
+[warn] FISUSDT not enough samples (53) – skipping model.
+[warn] FISUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/FLOKIUSDT_long_15/model.pkl | ROC-AUC=0.4573
+[+] saved model → /root/crypto-models/models/FLOKIUSDT_long_60/model.pkl | ROC-AUC=0.4882
+[+] saved model → /root/crypto-models/models/FLOKIUSDT_short_15/model.pkl | ROC-AUC=0.4899
+[+] saved model → /root/crypto-models/models/FLOKIUSDT_short_60/model.pkl | ROC-AUC=0.5111
+[+] saved model → /root/crypto-models/models/FLOWUSDT_long_15/model.pkl | ROC-AUC=0.1235
+[+] saved model → /root/crypto-models/models/FLOWUSDT_long_60/model.pkl | ROC-AUC=0.4924
+[+] saved model → /root/crypto-models/models/FLOWUSDT_short_15/model.pkl | ROC-AUC=0.5214
+[+] saved model → /root/crypto-models/models/FLOWUSDT_short_60/model.pkl | ROC-AUC=0.7195
+[warn] FRONTUSDT not enough samples (52) – skipping model.
+[warn] FRONTUSDT not enough samples (50) – skipping model.
+[warn] FRONTUSDT not enough samples (52) – skipping model.
+[warn] FRONTUSDT not enough samples (50) – skipping model.
+[warn] FTMUSDT not enough samples (52) – skipping model.
+[warn] FTMUSDT not enough samples (50) – skipping model.
+[warn] FTMUSDT not enough samples (52) – skipping model.
+[warn] FTMUSDT not enough samples (50) – skipping model.
+[warn] FTTUSDT not enough samples (53) – skipping model.
+[warn] FTTUSDT not enough samples (51) – skipping model.
+[warn] FTTUSDT not enough samples (53) – skipping model.
+[warn] FTTUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/GALAUSDT_long_15/model.pkl | ROC-AUC=0.5376
+[+] saved model → /root/crypto-models/models/GALAUSDT_long_60/model.pkl | ROC-AUC=0.4591
+[+] saved model → /root/crypto-models/models/GALAUSDT_short_15/model.pkl | ROC-AUC=0.5873
+[+] saved model → /root/crypto-models/models/GALAUSDT_short_60/model.pkl | ROC-AUC=0.6064
+[warn] GLMUSDT not enough samples (53) – skipping model.
+[warn] GLMUSDT not enough samples (51) – skipping model.
+[warn] GLMUSDT not enough samples (53) – skipping model.
+[warn] GLMUSDT not enough samples (51) – skipping model.
+[warn] GRTUSDT not enough samples (53) – skipping model.
+[warn] GRTUSDT not enough samples (51) – skipping model.
+[warn] GRTUSDT not enough samples (53) – skipping model.
+[warn] GRTUSDT not enough samples (51) – skipping model.
+[warn] HARDUSDT not enough samples (52) – skipping model.
+[warn] HARDUSDT not enough samples (50) – skipping model.
+[warn] HARDUSDT not enough samples (52) – skipping model.
+[warn] HARDUSDT not enough samples (50) – skipping model.
+[+] saved model → /root/crypto-models/models/HBARUSDT_long_15/model.pkl | ROC-AUC=0.4913
+[+] saved model → /root/crypto-models/models/HBARUSDT_long_60/model.pkl | ROC-AUC=0.421
+[+] saved model → /root/crypto-models/models/HBARUSDT_short_15/model.pkl | ROC-AUC=0.8503
+[+] saved model → /root/crypto-models/models/HBARUSDT_short_60/model.pkl | ROC-AUC=0.5584
+[warn] HOTUSDT not enough samples (53) – skipping model.
+[warn] HOTUSDT not enough samples (51) – skipping model.
+[warn] HOTUSDT not enough samples (53) – skipping model.
+[warn] HOTUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/ICPUSDT_long_15/model.pkl | ROC-AUC=0.7114
+[+] saved model → /root/crypto-models/models/ICPUSDT_long_60/model.pkl | ROC-AUC=0.5111
+[+] saved model → /root/crypto-models/models/ICPUSDT_short_15/model.pkl | ROC-AUC=0.656
+[+] saved model → /root/crypto-models/models/ICPUSDT_short_60/model.pkl | ROC-AUC=0.5445
+[warn] ICXUSDT not enough samples (53) – skipping model.
+[warn] ICXUSDT not enough samples (51) – skipping model.
+[warn] ICXUSDT not enough samples (53) – skipping model.
+[warn] ICXUSDT not enough samples (51) – skipping model.
+[warn] ILVUSDT not enough samples (53) – skipping model.
+[warn] ILVUSDT not enough samples (51) – skipping model.
+[warn] ILVUSDT not enough samples (53) – skipping model.
+[warn] ILVUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/IMXUSDT_long_15/model.pkl | ROC-AUC=0.5038
+[+] saved model → /root/crypto-models/models/IMXUSDT_long_60/model.pkl | ROC-AUC=0.4689
+[+] saved model → /root/crypto-models/models/IMXUSDT_short_15/model.pkl | ROC-AUC=0.6596
+[+] saved model → /root/crypto-models/models/IMXUSDT_short_60/model.pkl | ROC-AUC=0.5826
+[+] saved model → /root/crypto-models/models/INJUSDT_long_15/model.pkl | ROC-AUC=0.7633
+[+] saved model → /root/crypto-models/models/INJUSDT_long_60/model.pkl | ROC-AUC=0.5494
+[+] saved model → /root/crypto-models/models/INJUSDT_short_15/model.pkl | ROC-AUC=0.6494
+[+] saved model → /root/crypto-models/models/INJUSDT_short_60/model.pkl | ROC-AUC=0.5747
+[warn] IOTXUSDT not enough samples (53) – skipping model.
+[warn] IOTXUSDT not enough samples (51) – skipping model.
+[warn] IOTXUSDT not enough samples (53) – skipping model.
+[warn] IOTXUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/JASMYUSDT_long_15/model.pkl | ROC-AUC=0.558
+[+] saved model → /root/crypto-models/models/JASMYUSDT_long_60/model.pkl | ROC-AUC=0.5562
+[+] saved model → /root/crypto-models/models/JASMYUSDT_short_15/model.pkl | ROC-AUC=0.6309
+[+] saved model → /root/crypto-models/models/JASMYUSDT_short_60/model.pkl | ROC-AUC=0.6003
+[+] saved model → /root/crypto-models/models/JUPUSDT_long_15/model.pkl | ROC-AUC=0.5963
+[+] saved model → /root/crypto-models/models/JUPUSDT_long_60/model.pkl | ROC-AUC=0.4549
+[+] saved model → /root/crypto-models/models/JUPUSDT_short_15/model.pkl | ROC-AUC=0.5373
+[+] saved model → /root/crypto-models/models/JUPUSDT_short_60/model.pkl | ROC-AUC=0.4722
+[+] saved model → /root/crypto-models/models/KASUSDT_long_15/model.pkl | ROC-AUC=0.5034
+[+] saved model → /root/crypto-models/models/KASUSDT_long_60/model.pkl | ROC-AUC=0.5306
+[+] saved model → /root/crypto-models/models/KASUSDT_short_15/model.pkl | ROC-AUC=0.6221
+[+] saved model → /root/crypto-models/models/KASUSDT_short_60/model.pkl | ROC-AUC=0.5147
+[warn] KAVAUSDT not enough samples (53) – skipping model.
+[warn] KAVAUSDT not enough samples (51) – skipping model.
+[warn] KAVAUSDT not enough samples (53) – skipping model.
+[warn] KAVAUSDT not enough samples (51) – skipping model.
+Features parquet not found: /root/crypto-models/features/KEYUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KEYUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KEYUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KEYUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KNCUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KNCUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KNCUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KNCUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KSMUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KSMUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KSMUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/KSMUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LAZIOUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LAZIOUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LAZIOUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LAZIOUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/LDOUSDT_long_15/model.pkl | ROC-AUC=0.6108
+[+] saved model → /root/crypto-models/models/LDOUSDT_long_60/model.pkl | ROC-AUC=0.5151
+[+] saved model → /root/crypto-models/models/LDOUSDT_short_15/model.pkl | ROC-AUC=0.4821
+[+] saved model → /root/crypto-models/models/LDOUSDT_short_60/model.pkl | ROC-AUC=0.5423
+[+] saved model → /root/crypto-models/models/LINKUSDT_long_15/model.pkl | ROC-AUC=0.5237
+[+] saved model → /root/crypto-models/models/LINKUSDT_long_60/model.pkl | ROC-AUC=0.5845
+[+] saved model → /root/crypto-models/models/LINKUSDT_short_15/model.pkl | ROC-AUC=0.7522
+[+] saved model → /root/crypto-models/models/LINKUSDT_short_60/model.pkl | ROC-AUC=0.6802
+Features parquet not found: /root/crypto-models/features/LLDOUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LLDOUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LLDOUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LLDOUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LOOKSUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LOOKSUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LOOKSUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LOOKSUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/LPTUSDT_long_15/model.pkl | ROC-AUC=0.4142
+[+] saved model → /root/crypto-models/models/LPTUSDT_long_60/model.pkl | ROC-AUC=0.5224
+[+] saved model → /root/crypto-models/models/LPTUSDT_short_15/model.pkl | ROC-AUC=0.6078
+[+] saved model → /root/crypto-models/models/LPTUSDT_short_60/model.pkl | ROC-AUC=0.6299
+Features parquet not found: /root/crypto-models/features/LRCUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LRCUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LRCUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/LRCUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/LTCUSDT_long_15/model.pkl | ROC-AUC=0.526
+[+] saved model → /root/crypto-models/models/LTCUSDT_long_60/model.pkl | ROC-AUC=0.5097
+[+] saved model → /root/crypto-models/models/LTCUSDT_short_15/model.pkl | ROC-AUC=0.6672
+[+] saved model → /root/crypto-models/models/LTCUSDT_short_60/model.pkl | ROC-AUC=0.6968
+[+] saved model → /root/crypto-models/models/MANAUSDT_long_15/model.pkl | ROC-AUC=0.5848
+[+] saved model → /root/crypto-models/models/MANAUSDT_long_60/model.pkl | ROC-AUC=0.4881
+[+] saved model → /root/crypto-models/models/MANAUSDT_short_15/model.pkl | ROC-AUC=0.7215
+[+] saved model → /root/crypto-models/models/MANAUSDT_short_60/model.pkl | ROC-AUC=0.6493
+[warn] MATICUSDT not enough samples (52) – skipping model.
+[warn] MATICUSDT not enough samples (50) – skipping model.
+[warn] MATICUSDT not enough samples (52) – skipping model.
+[warn] MATICUSDT not enough samples (50) – skipping model.
+[+] saved model → /root/crypto-models/models/MEMEUSDT_long_15/model.pkl | ROC-AUC=0.59
+[+] saved model → /root/crypto-models/models/MEMEUSDT_long_60/model.pkl | ROC-AUC=0.4853
+[+] saved model → /root/crypto-models/models/MEMEUSDT_short_15/model.pkl | ROC-AUC=0.6027
+[+] saved model → /root/crypto-models/models/MEMEUSDT_short_60/model.pkl | ROC-AUC=0.5545
+[warn] MINAUSDT not enough samples (53) – skipping model.
+[warn] MINAUSDT not enough samples (51) – skipping model.
+[warn] MINAUSDT not enough samples (53) – skipping model.
+[warn] MINAUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/MKRUSDT_long_15/model.pkl | ROC-AUC=0.5434
+[+] saved model → /root/crypto-models/models/MKRUSDT_long_60/model.pkl | ROC-AUC=0.5474
+[+] saved model → /root/crypto-models/models/MKRUSDT_short_15/model.pkl | ROC-AUC=0.4969
+[+] saved model → /root/crypto-models/models/MKRUSDT_short_60/model.pkl | ROC-AUC=0.5402
+[warn] MOVRUSDT not enough samples (53) – skipping model.
+[warn] MOVRUSDT not enough samples (51) – skipping model.
+[warn] MOVRUSDT not enough samples (53) – skipping model.
+[warn] MOVRUSDT not enough samples (51) – skipping model.
+[warn] MTLUSDT not enough samples (53) – skipping model.
+[warn] MTLUSDT not enough samples (51) – skipping model.
+[warn] MTLUSDT not enough samples (53) – skipping model.
+[warn] MTLUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/NEARUSDT_long_15/model.pkl | ROC-AUC=0.6894
+[+] saved model → /root/crypto-models/models/NEARUSDT_long_60/model.pkl | ROC-AUC=0.4839
+[+] saved model → /root/crypto-models/models/NEARUSDT_short_15/model.pkl | ROC-AUC=0.6243
+[+] saved model → /root/crypto-models/models/NEARUSDT_short_60/model.pkl | ROC-AUC=0.5469
+[+] saved model → /root/crypto-models/models/NEOUSDT_long_15/model.pkl | ROC-AUC=0.5137
+[+] saved model → /root/crypto-models/models/NEOUSDT_long_60/model.pkl | ROC-AUC=0.5943
+[+] saved model → /root/crypto-models/models/NEOUSDT_short_15/model.pkl | ROC-AUC=0.6461
+[+] saved model → /root/crypto-models/models/NEOUSDT_short_60/model.pkl | ROC-AUC=0.6134
+[warn] NKNUSDT not enough samples (53) – skipping model.
+[warn] NKNUSDT not enough samples (51) – skipping model.
+[warn] NKNUSDT not enough samples (53) – skipping model.
+[warn] NKNUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/NTRNUSDT_long_15/model.pkl | ROC-AUC=0.864
+[+] saved model → /root/crypto-models/models/NTRNUSDT_long_60/model.pkl | ROC-AUC=0.5271
+[+] saved model → /root/crypto-models/models/NTRNUSDT_short_15/model.pkl | ROC-AUC=0.7226
+[+] saved model → /root/crypto-models/models/NTRNUSDT_short_60/model.pkl | ROC-AUC=0.5116
+[warn] NUUSDT not enough samples (52) – skipping model.
+[warn] NUUSDT not enough samples (50) – skipping model.
+[warn] NUUSDT not enough samples (52) – skipping model.
+[warn] NUUSDT not enough samples (50) – skipping model.
+[warn] OCEANUSDT not enough samples (52) – skipping model.
+[warn] OCEANUSDT not enough samples (50) – skipping model.
+[warn] OCEANUSDT not enough samples (52) – skipping model.
+[warn] OCEANUSDT not enough samples (50) – skipping model.
+[warn] OGNUSDT not enough samples (53) – skipping model.
+[warn] OGNUSDT not enough samples (51) – skipping model.
+[warn] OGNUSDT not enough samples (53) – skipping model.
+[warn] OGNUSDT not enough samples (51) – skipping model.
+[+] saved model → /root/crypto-models/models/ONEUSDT_long_15/model.pkl | ROC-AUC=0.6111
+[+] saved model → /root/crypto-models/models/ONEUSDT_long_60/model.pkl | ROC-AUC=0.4209
+[+] saved model → /root/crypto-models/models/ONEUSDT_short_15/model.pkl | ROC-AUC=0.4855

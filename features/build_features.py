@@ -2,13 +2,19 @@
 
 Steps
 -----
-1. Load 1-minute candle parquet from `data/`.
-2. Resample to 15-minute bars (OHLCV agg) using Polars `group_by_dynamic`.
-3. Compute technical indicators (RSI-14, returns, Bollinger width, ATR).
-4. Join macro factors pulled live from Data-API `/macro/latest` (nearest ts).
-5. Save to `features/<token>.parquet` (overwrites; stateless).
+Load 1-minute candle parquet from `data/`.
+Resample to 15-minute bars (OHLCV agg) using Polars `group_by_dynamic`.
+Compute technical indicators (RSI-14, returns, Bollinger width, ATR).
+Join macro factors pulled live from Data-API `/macro/latest` (nearest ts).
+Save to `features/<token>.parquet` (overwrites; stateless).
 """
 from __future__ import annotations
+
+# Inject project root into sys.path so that `utils` resolves when script is called directly
+import sys, pathlib
+PROJECT_ROOT = pathlib.Path(__file__).resolve().parents[1]
+if PROJECT_ROOT.as_posix() not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT.as_posix())
 
 import argparse
 import asyncio
@@ -102,14 +108,36 @@ def build(token: str) -> None:  # noqa: D401
         # Fallback: pull from Data-API live endpoint
         print(f"[info] local raw parquet missing for {token}; fetching from Data-API…")
         import requests, pandas as pd
-        resp = requests.get(f"{API_URL}/candles/{token}USDT/1m", params={"limit": 43200})  # 30 days of 1-min
+        # Ensure we only append USDT once
+        symbol = token if token.endswith("USDT") else f"{token}USDT"
+        resp = requests.get(f"{API_URL}/candles/{symbol}/1m", params={"limit": 43200})  # 30 days of 1-min
         resp.raise_for_status()
         js = resp.json()
-        if not js:
-            raise SystemExit("No candle data returned from Data-API")
-        # unwrap if server responds with { ..., 'candles': [...] }
+        # unwrap if server responds with {{..., 'candles': [...]}}
         if isinstance(js, dict) and 'candles' in js:
             js = js['candles']
+        if not js:
+            # secondary fallback hierarchy: first Binance SPOT klines, then Binance FUTURES klines
+            print(f"[info] Data-API empty for {symbol}; trying Binance REST…")
+            # try SPOT first
+            klines = []
+            for base_url in ("https://api.binance.com/api/v3/klines", "https://fapi.binance.com/fapi/v1/klines"):
+                b_resp = requests.get(base_url, params={"symbol": symbol, "interval": "1m", "limit": 1000})
+                if b_resp.status_code == 200 and b_resp.json():
+                    klines = b_resp.json()
+                    if klines:
+                        break
+            if klines:
+                js = [{
+                    "ts": k[0],
+                    "open": float(k[1]),
+                    "high": float(k[2]),
+                    "low": float(k[3]),
+                    "close": float(k[4]),
+                    "volume": float(k[5])
+                } for k in klines]
+            else:
+                raise SystemExit("No candle data from Data-API nor Binance (spot or futures)")
         df = pl.from_pandas(pd.DataFrame(js))
         # Standardise expected columns
         rename_map = {"t": "ts", "o": "open", "h": "high", "l": "low", "c": "close", "v": "volume"}
@@ -168,6 +196,13 @@ def build(token: str) -> None:  # noqa: D401
         ((pl.col("close") - pl.col("low")) / (pl.col("high") - pl.col("low") + 1e-9)).alias("buy_pressure"),
         ((pl.col("high") - pl.col("low")) / pl.col("close")).alias("high_low_range"),
         
+        # Liquidity & regime context (24-hour window)
+        ((pl.col("close") * pl.col("volume")).rolling_sum(96)).alias("vol_usd_24h"),
+        (pl.col("close").log().diff().rolling_std(96)).alias("volatility_24h"),
+        # True range and 20-bar ATR (≈5h)
+        (pl.max_horizontal(pl.col("high") - pl.col("low"),
+                           (pl.col("high") - pl.col("close").shift(1)).abs(),
+                           (pl.col("low") - pl.col("close").shift(1)).abs()).rolling_mean(20)).alias("atr_20"),
         # Multi-timeframe returns
         (pl.col("close") / pl.col("close").shift(4) - 1).alias("ret_1h"),
         (pl.col("close") / pl.col("close").shift(16) - 1).alias("ret_4h"),

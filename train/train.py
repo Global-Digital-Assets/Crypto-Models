@@ -12,12 +12,19 @@ from pathlib import Path
 
 import polars as pl
 import numpy as np
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_auc_score, accuracy_score
 import lightgbm as lgb
 import os
 os.environ['OMP_NUM_THREADS'] = '8'
 os.environ['OPENBLAS_NUM_THREADS'] = '8'
 
+# Ensure project root is on sys.path so `utils` can be imported when this
+# script is launched from a sub-directory subprocess.
+from pathlib import Path
+import sys as _sys
+ROOT_DIR = Path(__file__).resolve().parents[1]
+if str(ROOT_DIR) not in _sys.path:
+    _sys.path.append(str(ROOT_DIR))
 from utils import FEATURES_DIR, MODELS_DIR, timestamp, dump_json
 
 
@@ -34,6 +41,7 @@ def parse_args() -> argparse.Namespace:  # noqa: D401
     p.add_argument("--horizon", type=int, default=60, help="forecast horizon in minutes (e.g. 60)")
     p.add_argument("--target-pct", type=float, default=1.0, help="absolute percentage move defining a positive label, e.g. 1.0 for 1%")
     p.add_argument("--class-weight", choices=["balanced", "none"], default="balanced", help="LightGBM class_weight parameter")
+    p.add_argument("--force", action="store_true", help="train even if positive samples below threshold")
     return p.parse_args()
 
 
@@ -66,11 +74,18 @@ def build_target(df: pl.DataFrame, mode: str, horizon: int, target_pct: float) -
     shift_steps = max(1, int(horizon // 15))
     future_ret = (df["close"].shift(-shift_steps) / df["close"] - 1).alias("future_ret")
     df = df.with_columns(future_ret)
-    thresh = target_pct / 100
-    if mode == "long":
-        target = (pl.col("future_ret") >= thresh).cast(int).alias("y")
+    if mode == "short" and target_pct <= 0:
+        # adaptive threshold: 0.5 * ATR percent
+        atr_pct = (pl.col("atr_20") / pl.col("close")).fill_null(strategy="forward")
+        thresh_series = (atr_pct * 0.5).alias("dyn_thresh")
+        df = df.with_columns(thresh_series)
+        target = (pl.col("future_ret") <= -pl.col("dyn_thresh")).cast(int).alias("y")
     else:
-        target = (pl.col("future_ret") <= -thresh).cast(int).alias("y")
+        thresh = target_pct / 100
+        if mode == "long":
+            target = (pl.col("future_ret") >= thresh).cast(int).alias("y")
+        else:
+            target = (pl.col("future_ret") <= -thresh).cast(int).alias("y")
     df = df.with_columns(target)
     return df.drop_nulls(subset=["y"])
 
@@ -121,9 +136,16 @@ def main() -> None:  # noqa: D401
     split_idx = int(n * 0.8)
     train_df, val_df = df[:split_idx], df[split_idx:]
 
-    # Skip training if not enough samples
+    # --- Positive sample quality gate ---
+    pos_count = int(train_df["y"].sum())
+    pos_ratio = pos_count / len(train_df) if len(train_df) else 0
+    if (not args.force) and (pos_count < 100 and pos_ratio < 0.01):
+        print(
+            f"[warn] {args.token} positives={pos_count} (ratio={pos_ratio:.2%}) below 100 or 1% – skipping model."
+        )
+        return
     if len(train_df) < 200:
-        print(f"[warn] {args.token} not enough samples ({len(train_df)}) – skipping model.")
+        print(f"[warn] {args.token} not enough rows ({len(train_df)}) – skipping model.")
         return
 
     # Keep only numeric scalar columns to avoid LightGBM errors
@@ -144,6 +166,10 @@ def main() -> None:  # noqa: D401
         [pl.col(c).cast(pl.Float64, strict=False) for c in feature_cols]
     )
 
+    # Prepare output directory early
+    out_dir = MODELS_DIR / f"{args.token}_{args.mode}_{args.horizon}"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
     X_train = train_features_df.to_numpy()
     y_train = train_df["y"].to_numpy()
     X_val = val_features_df.to_numpy()
@@ -152,17 +178,39 @@ def main() -> None:  # noqa: D401
         raise SystemExit("No numeric features available after filtering – abort.")
 
     model = train_lightgbm(X_train, y_train, args.class_weight)
-    val_pred = model.predict_proba(X_val)[:, 1]
-    roc_auc = roc_auc_score(y_val, val_pred)
+    val_pred_raw = model.predict_proba(X_val)[:, 1]
+
+    # --- Probability calibration (isotonic) ---
+    val_pos = int(y_val.sum())
+    calibrator = None
+    if val_pos >= 50:
+        from sklearn.isotonic import IsotonicRegression
+        calibrator = IsotonicRegression(out_of_bounds='clip')
+        calibrator.fit(val_pred_raw, y_val)
+        val_pred = calibrator.predict(val_pred_raw)
+        joblib.dump(calibrator, out_dir / "calibrator.pkl")
+    else:
+        # Too few positives – use raw LightGBM probability
+        val_pred = val_pred_raw
+
+    # Handle ROC-AUC calculation with graceful fallback
+    try:
+        roc_auc = roc_auc_score(y_val, val_pred)
+    except ValueError as e:
+        if "Only one class present" in str(e):
+            print(f"[warn] Single class in validation set for {args.token}_{args.mode}_{args.horizon} - using accuracy fallback")
+            roc_auc = accuracy_score(y_val, (val_pred > 0.5).astype(int))
+        else:
+            raise e
 
     # Persist
-    out_dir = MODELS_DIR / f"{args.token}_{args.mode}_{args.horizon}"
-    out_dir.mkdir(parents=True, exist_ok=True)
+    # out_dir already created above
     model_path = out_dir / "model.pkl"
     joblib.dump(model, model_path)
 
     meta = {
         "trained_at": timestamp(),
+        "calibrated": bool(calibrator),
         "token": args.token,
         "mode": args.mode,
         "horizon_min": args.horizon,

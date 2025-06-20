@@ -1,0 +1,210 @@
+[+] saved model → /root/crypto-models/models/ENJUSDT_long/model.pkl | ROC-AUC=0.5099
+[+] saved model → /root/crypto-models/models/ENJUSDT_short/model.pkl | ROC-AUC=0.5231
+Features parquet not found: /root/crypto-models/features/AVAXUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/AVAXUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/ZECUSDT_long/model.pkl | ROC-AUC=0.5628
+[+] saved model → /root/crypto-models/models/ZECUSDT_short/model.pkl | ROC-AUC=0.5011
+Features parquet not found: /root/crypto-models/features/ADAUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/ADAUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/APTUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/APTUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/TAOUSDT_long/model.pkl | ROC-AUC=0.5595
+[+] saved model → /root/crypto-models/models/TAOUSDT_short/model.pkl | ROC-AUC=0.5434
+[+] saved model → /root/crypto-models/models/AMPUSDT_long/model.pkl | ROC-AUC=0.6047
+[+] saved model → /root/crypto-models/models/AMPUSDT_short/model.pkl | ROC-AUC=0.5761
+[+] saved model → /root/crypto-models/models/FILUSDT_long/model.pkl | ROC-AUC=0.5161
+[+] saved model → /root/crypto-models/models/FILUSDT_short/model.pkl | ROC-AUC=0.6498
+[+] saved model → /root/crypto-models/models/THETAUSDT_long/model.pkl | ROC-AUC=0.4858
+[+] saved model → /root/crypto-models/models/THETAUSDT_short/model.pkl | ROC-AUC=0.6449
+[+] saved model → /root/crypto-models/models/AXSUSDT_long/model.pkl | ROC-AUC=0.4985
+[+] saved model → /root/crypto-models/models/AXSUSDT_short/model.pkl | ROC-AUC=0.6148
+[+] saved model → /root/crypto-models/models/PEPEUSDT_long/model.pkl | ROC-AUC=0.4322
+[+] saved model → /root/crypto-models/models/PEPEUSDT_short/model.pkl | ROC-AUC=0.5976
+Features parquet not found: /root/crypto-models/features/SUSHIUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/SUSHIUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/SOLUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/SOLUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/ARDRUSDT_long/model.pkl | ROC-AUC=0.5667
+[+] saved model → /root/crypto-models/models/ARDRUSDT_short/model.pkl | ROC-AUC=0.7419
+[+] saved model → /root/crypto-models/models/WIFUSDT_long/model.pkl | ROC-AUC=0.5566
+[+] saved model → /root/crypto-models/models/WIFUSDT_short/model.pkl | ROC-AUC=0.5901
+[+] saved model → /root/crypto-models/models/DYDXUSDT_long/model.pkl | ROC-AUC=0.449
+[+] saved model → /root/crypto-models/models/DYDXUSDT_short/model.pkl | ROC-AUC=0.665
+[+] saved model → /root/crypto-models/models/DYMUSDT_long/model.pkl | ROC-AUC=0.5217
+[+] saved model → /root/crypto-models/models/DYMUSDT_short/model.pkl | ROC-AUC=0.6371
+[+] saved model → /root/crypto-models/models/DOGEUSDT_long/model.pkl | ROC-AUC=0.4618
+[+] saved model → /root/crypto-models/models/DOGEUSDT_short/model.pkl | ROC-AUC=0.5355
+[+] saved model → /root/crypto-models/models/COMPUSDT_long/model.pkl | ROC-AUC=0.4778
+[+] saved model → /root/crypto-models/models/COMPUSDT_short/model.pkl | ROC-AUC=0.5911
+Features parquet not found: /root/crypto-models/features/EGLDUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/EGLDUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/PORTALUSDT_long/model.pkl | ROC-AUC=0.5215
+[+] saved model → /root/crypto-models/models/PORTALUSDT_short/model.pkl | ROC-AUC=0.5585
+[+] saved model → /root/crypto-models/models/EIGENUSDT_long/model.pkl | ROC-AUC=0.58
+[+] saved model → /root/crypto-models/models/EIGENUSDT_short/model.pkl | ROC-AUC=0.5295
+[+] saved model → /root/crypto-models/models/ALGOUSDT_long/model.pkl | ROC-AUC=0.5031
+[+] saved model → /root/crypto-models/models/ALGOUSDT_short/model.pkl | ROC-AUC=0.6033
+Features parquet not found: /root/crypto-models/features/ATOMUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/ATOMUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/DASHUSDT_long/model.pkl | ROC-AUC=0.6867
+[+] saved model → /root/crypto-models/models/DASHUSDT_short/model.pkl | ROC-AUC=0.543
+[+] saved model → /root/crypto-models/models/TIAUSDT_long/model.pkl | ROC-AUC=0.4975
+[+] saved model → /root/crypto-models/models/TIAUSDT_short/model.pkl | ROC-AUC=0.5452
+[+] saved model → /root/crypto-models/models/TRBUSDT_long/model.pkl | ROC-AUC=0.4871
+[+] saved model → /root/crypto-models/models/TRBUSDT_short/model.pkl | ROC-AUC=0.5574
+[+] saved model → /root/crypto-models/models/C98USDT_long/model.pkl | ROC-AUC=0.5383
+[+] saved model → /root/crypto-models/models/C98USDT_short/model.pkl | ROC-AUC=0.4677
+[+] saved model → /root/crypto-models/models/ACHUSDT_long/model.pkl | ROC-AUC=0.5509
+[+] saved model → /root/crypto-models/models/ACHUSDT_short/model.pkl | ROC-AUC=0.5297
+[+] saved model → /root/crypto-models/models/ETCUSDT_long/model.pkl | ROC-AUC=0.5449
+[+] saved model → /root/crypto-models/models/ETCUSDT_short/model.pkl | ROC-AUC=0.7317
+[+] saved model → /root/crypto-models/models/CHZUSDT_long/model.pkl | ROC-AUC=0.6158
+[+] saved model → /root/crypto-models/models/CHZUSDT_short/model.pkl | ROC-AUC=0.5345
+[+] saved model → /root/crypto-models/models/ZILUSDT_long/model.pkl | ROC-AUC=0.4638
+[+] saved model → /root/crypto-models/models/ZILUSDT_short/model.pkl | ROC-AUC=0.5744
+[+] saved model → /root/crypto-models/models/ENAUSDT_long/model.pkl | ROC-AUC=0.5021
+[+] saved model → /root/crypto-models/models/ENAUSDT_short/model.pkl | ROC-AUC=0.6402
+[+] saved model → /root/crypto-models/models/BONKUSDT_long/model.pkl | ROC-AUC=0.5689
+[+] saved model → /root/crypto-models/models/BONKUSDT_short/model.pkl | ROC-AUC=0.5918
+[+] saved model → /root/crypto-models/models/FETUSDT_long/model.pkl | ROC-AUC=0.5611
+[+] saved model → /root/crypto-models/models/FETUSDT_short/model.pkl | ROC-AUC=0.4338
+[+] saved model → /root/crypto-models/models/BOMEUSDT_long/model.pkl | ROC-AUC=0.5222
+[+] saved model → /root/crypto-models/models/BOMEUSDT_short/model.pkl | ROC-AUC=0.6023
+[+] saved model → /root/crypto-models/models/CFXUSDT_long/model.pkl | ROC-AUC=0.4428
+[+] saved model → /root/crypto-models/models/CFXUSDT_short/model.pkl | ROC-AUC=0.5729
+[+] saved model → /root/crypto-models/models/ZKUSDT_long/model.pkl | ROC-AUC=0.5449
+[+] saved model → /root/crypto-models/models/ZKUSDT_short/model.pkl | ROC-AUC=0.5832
+Features parquet not found: /root/crypto-models/features/ARBUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/ARBUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/ENSUSDT_long/model.pkl | ROC-AUC=0.4264
+[+] saved model → /root/crypto-models/models/ENSUSDT_short/model.pkl | ROC-AUC=0.588
+[+] saved model → /root/crypto-models/models/SUIUSDT_long/model.pkl | ROC-AUC=0.6111
+[+] saved model → /root/crypto-models/models/SUIUSDT_short/model.pkl | ROC-AUC=0.4978
+Features parquet not found: /root/crypto-models/features/AAVEUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/AAVEUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/BATUSDT_long/model.pkl | ROC-AUC=0.482
+[+] saved model → /root/crypto-models/models/BATUSDT_short/model.pkl | ROC-AUC=0.6887
+Features parquet not found: /root/crypto-models/features/BCHUSDT.parquet. Run features/build_features.py first.
+Features parquet not found: /root/crypto-models/features/BCHUSDT.parquet. Run features/build_features.py first.
+[+] saved model → /root/crypto-models/models/SHIBUSDT_long/model.pkl | ROC-AUC=0.415
+[+] saved model → /root/crypto-models/models/SHIBUSDT_short/model.pkl | ROC-AUC=0.6973
+[+] saved model → /root/crypto-models/models/DOTUSDT_long/model.pkl | ROC-AUC=0.4329
+[+] saved model → /root/crypto-models/models/DOTUSDT_short/model.pkl | ROC-AUC=0.6916
+[+] saved model → /root/crypto-models/models/PYTHUSDT_long/model.pkl | ROC-AUC=0.4596
+[+] saved model → /root/crypto-models/models/PYTHUSDT_short/model.pkl | ROC-AUC=0.5976
+[+] saved model → /root/crypto-models/models/BLURUSDT_long/model.pkl | ROC-AUC=0.4611
+[+] saved model → /root/crypto-models/models/BLURUSDT_short/model.pkl | ROC-AUC=0.5349
+[+] saved model → /root/crypto-models/models/1000BONKUSDT_short/model.pkl | ROC-AUC=0.6785
+[+] saved model → /root/crypto-models/models/1000FLOKIUSDT_short/model.pkl | ROC-AUC=0.6807
+[+] saved model → /root/crypto-models/models/1000LUNCUSDT_short/model.pkl | ROC-AUC=0.6862
+[+] saved model → /root/crypto-models/models/1000PEPEUSDT_short/model.pkl | ROC-AUC=0.6993
+[+] saved model → /root/crypto-models/models/1000SATSUSDT_short/model.pkl | ROC-AUC=0.6301
+[+] saved model → /root/crypto-models/models/1000SHIBUSDT_short/model.pkl | ROC-AUC=0.7151
+[+] saved model → /root/crypto-models/models/ACHUSDT_long/model.pkl | ROC-AUC=0.5509
+[+] saved model → /root/crypto-models/models/ACHUSDT_short/model.pkl | ROC-AUC=0.5297
+[+] saved model → /root/crypto-models/models/ALGOUSDT_long/model.pkl | ROC-AUC=0.5031
+[+] saved model → /root/crypto-models/models/ALGOUSDT_short/model.pkl | ROC-AUC=0.6033
+[+] saved model → /root/crypto-models/models/AXSUSDT_long/model.pkl | ROC-AUC=0.4985
+[+] saved model → /root/crypto-models/models/AXSUSDT_short/model.pkl | ROC-AUC=0.6148
+[+] saved model → /root/crypto-models/models/BATUSDT_long/model.pkl | ROC-AUC=0.482
+[+] saved model → /root/crypto-models/models/BATUSDT_short/model.pkl | ROC-AUC=0.6887
+[+] saved model → /root/crypto-models/models/BLURUSDT_long/model.pkl | ROC-AUC=0.4611
+[+] saved model → /root/crypto-models/models/BLURUSDT_short/model.pkl | ROC-AUC=0.5349
+[+] saved model → /root/crypto-models/models/BNBUSDT_short/model.pkl | ROC-AUC=0.9415
+[+] saved model → /root/crypto-models/models/BOMEUSDT_long/model.pkl | ROC-AUC=0.5222
+[+] saved model → /root/crypto-models/models/BOMEUSDT_short/model.pkl | ROC-AUC=0.6023
+[+] saved model → /root/crypto-models/models/BONKUSDT_long/model.pkl | ROC-AUC=0.5689
+[+] saved model → /root/crypto-models/models/BONKUSDT_short/model.pkl | ROC-AUC=0.5918
+[+] saved model → /root/crypto-models/models/C98USDT_long/model.pkl | ROC-AUC=0.5383
+[+] saved model → /root/crypto-models/models/C98USDT_short/model.pkl | ROC-AUC=0.4677
+[+] saved model → /root/crypto-models/models/CFXUSDT_long/model.pkl | ROC-AUC=0.4428
+[+] saved model → /root/crypto-models/models/CFXUSDT_short/model.pkl | ROC-AUC=0.5729
+[+] saved model → /root/crypto-models/models/CHZUSDT_long/model.pkl | ROC-AUC=0.6158
+[+] saved model → /root/crypto-models/models/CHZUSDT_short/model.pkl | ROC-AUC=0.5345
+[+] saved model → /root/crypto-models/models/COMPUSDT_long/model.pkl | ROC-AUC=0.4778
+[+] saved model → /root/crypto-models/models/COMPUSDT_short/model.pkl | ROC-AUC=0.5911
+[+] saved model → /root/crypto-models/models/DASHUSDT_long/model.pkl | ROC-AUC=0.6867
+[+] saved model → /root/crypto-models/models/DASHUSDT_short/model.pkl | ROC-AUC=0.543
+[+] saved model → /root/crypto-models/models/DOGEUSDT_long/model.pkl | ROC-AUC=0.4618
+[+] saved model → /root/crypto-models/models/DOGEUSDT_short/model.pkl | ROC-AUC=0.5355
+[+] saved model → /root/crypto-models/models/DYDXUSDT_long/model.pkl | ROC-AUC=0.449
+[+] saved model → /root/crypto-models/models/DYDXUSDT_short/model.pkl | ROC-AUC=0.665
+[+] saved model → /root/crypto-models/models/DYMUSDT_long/model.pkl | ROC-AUC=0.5217
+[+] saved model → /root/crypto-models/models/DYMUSDT_short/model.pkl | ROC-AUC=0.6371
+[+] saved model → /root/crypto-models/models/EIGENUSDT_long/model.pkl | ROC-AUC=0.58
+[+] saved model → /root/crypto-models/models/EIGENUSDT_short/model.pkl | ROC-AUC=0.5295
+[+] saved model → /root/crypto-models/models/ENAUSDT_long/model.pkl | ROC-AUC=0.5021
+[+] saved model → /root/crypto-models/models/ENAUSDT_short/model.pkl | ROC-AUC=0.6402
+[+] saved model → /root/crypto-models/models/ENJUSDT_long/model.pkl | ROC-AUC=0.5099
+[+] saved model → /root/crypto-models/models/ENJUSDT_short/model.pkl | ROC-AUC=0.5231
+[+] saved model → /root/crypto-models/models/ENSUSDT_long/model.pkl | ROC-AUC=0.4264
+[+] saved model → /root/crypto-models/models/ENSUSDT_short/model.pkl | ROC-AUC=0.588
+[+] saved model → /root/crypto-models/models/FETUSDT_long/model.pkl | ROC-AUC=0.5611
+[+] saved model → /root/crypto-models/models/FETUSDT_short/model.pkl | ROC-AUC=0.4338
+[+] saved model → /root/crypto-models/models/FLOKIUSDT_short/model.pkl | ROC-AUC=0.5111
+[+] saved model → /root/crypto-models/models/FLOWUSDT_short/model.pkl | ROC-AUC=0.7195
+[+] saved model → /root/crypto-models/models/GALAUSDT_short/model.pkl | ROC-AUC=0.6064
+[+] saved model → /root/crypto-models/models/HBARUSDT_short/model.pkl | ROC-AUC=0.5584
+[+] saved model → /root/crypto-models/models/ICPUSDT_short/model.pkl | ROC-AUC=0.5445
+[+] saved model → /root/crypto-models/models/IMXUSDT_short/model.pkl | ROC-AUC=0.5826
+[+] saved model → /root/crypto-models/models/INJUSDT_short/model.pkl | ROC-AUC=0.5747
+[+] saved model → /root/crypto-models/models/JASMYUSDT_short/model.pkl | ROC-AUC=0.6003
+[+] saved model → /root/crypto-models/models/JUPUSDT_short/model.pkl | ROC-AUC=0.4722
+[+] saved model → /root/crypto-models/models/KASUSDT_short/model.pkl | ROC-AUC=0.5147
+[+] saved model → /root/crypto-models/models/LDOUSDT_short/model.pkl | ROC-AUC=0.5423
+[+] saved model → /root/crypto-models/models/LINKUSDT_short/model.pkl | ROC-AUC=0.6802
+[+] saved model → /root/crypto-models/models/LPTUSDT_short/model.pkl | ROC-AUC=0.6299
+[+] saved model → /root/crypto-models/models/LTCUSDT_short/model.pkl | ROC-AUC=0.6968
+[+] saved model → /root/crypto-models/models/MANAUSDT_short/model.pkl | ROC-AUC=0.6493
+[+] saved model → /root/crypto-models/models/MEMEUSDT_short/model.pkl | ROC-AUC=0.5545
+[+] saved model → /root/crypto-models/models/MKRUSDT_short/model.pkl | ROC-AUC=0.5402
+[+] saved model → /root/crypto-models/models/NEARUSDT_short/model.pkl | ROC-AUC=0.5469
+[+] saved model → /root/crypto-models/models/NEOUSDT_short/model.pkl | ROC-AUC=0.6134
+[+] saved model → /root/crypto-models/models/NTRNUSDT_short/model.pkl | ROC-AUC=0.5116
+[+] saved model → /root/crypto-models/models/ONEUSDT_short/model.pkl | ROC-AUC=0.5928
+[+] saved model → /root/crypto-models/models/OPUSDT_short/model.pkl | ROC-AUC=0.6016
+[+] saved model → /root/crypto-models/models/ORDIUSDT_short/model.pkl | ROC-AUC=0.5761
+[+] saved model → /root/crypto-models/models/PEOPLEUSDT_short/model.pkl | ROC-AUC=0.6482
+[+] saved model → /root/crypto-models/models/PEPEUSDT_long/model.pkl | ROC-AUC=0.4322
+[+] saved model → /root/crypto-models/models/PEPEUSDT_short/model.pkl | ROC-AUC=0.5976
+[+] saved model → /root/crypto-models/models/PIXELUSDT_short/model.pkl | ROC-AUC=0.5699
+[+] saved model → /root/crypto-models/models/PORTALUSDT_long/model.pkl | ROC-AUC=0.5215
+[+] saved model → /root/crypto-models/models/PORTALUSDT_short/model.pkl | ROC-AUC=0.5585
+[+] saved model → /root/crypto-models/models/PYTHUSDT_long/model.pkl | ROC-AUC=0.4596
+[+] saved model → /root/crypto-models/models/PYTHUSDT_short/model.pkl | ROC-AUC=0.5976
+[+] saved model → /root/crypto-models/models/QNTUSDT_short/model.pkl | ROC-AUC=0.6078
+[+] saved model → /root/crypto-models/models/RAYUSDT_short/model.pkl | ROC-AUC=0.6321
+[+] saved model → /root/crypto-models/models/RSRUSDT_short/model.pkl | ROC-AUC=0.6255
+[+] saved model → /root/crypto-models/models/RVNUSDT_short/model.pkl | ROC-AUC=0.6157
+[+] saved model → /root/crypto-models/models/SANDUSDT_short/model.pkl | ROC-AUC=0.7476
+[+] saved model → /root/crypto-models/models/SEIUSDT_short/model.pkl | ROC-AUC=0.5906
+[+] saved model → /root/crypto-models/models/SFPUSDT_short/model.pkl | ROC-AUC=0.6238
+[+] saved model → /root/crypto-models/models/SHIBUSDT_long/model.pkl | ROC-AUC=0.415
+[+] saved model → /root/crypto-models/models/SHIBUSDT_short/model.pkl | ROC-AUC=0.6973
+[+] saved model → /root/crypto-models/models/STXUSDT_short/model.pkl | ROC-AUC=0.604
+[+] saved model → /root/crypto-models/models/TAOUSDT_long/model.pkl | ROC-AUC=0.5595
+[+] saved model → /root/crypto-models/models/TAOUSDT_short/model.pkl | ROC-AUC=0.5434
+[+] saved model → /root/crypto-models/models/THETAUSDT_long/model.pkl | ROC-AUC=0.4858
+[+] saved model → /root/crypto-models/models/THETAUSDT_short/model.pkl | ROC-AUC=0.6449
+[+] saved model → /root/crypto-models/models/TIAUSDT_long/model.pkl | ROC-AUC=0.4975
+[+] saved model → /root/crypto-models/models/TIAUSDT_short/model.pkl | ROC-AUC=0.5452
+[+] saved model → /root/crypto-models/models/TRBUSDT_long/model.pkl | ROC-AUC=0.4871
+[+] saved model → /root/crypto-models/models/TRBUSDT_short/model.pkl | ROC-AUC=0.5574
+[+] saved model → /root/crypto-models/models/TRUMPUSDT_short/model.pkl | ROC-AUC=0.6208
+[+] saved model → /root/crypto-models/models/TRXUSDT_short/model.pkl | ROC-AUC=0.6867
+[+] saved model → /root/crypto-models/models/TURBOUSDT_short/model.pkl | ROC-AUC=0.566
+[+] saved model → /root/crypto-models/models/UNIUSDT_short/model.pkl | ROC-AUC=0.6033
+[+] saved model → /root/crypto-models/models/VETUSDT_short/model.pkl | ROC-AUC=0.6974
+[+] saved model → /root/crypto-models/models/VIRTUALUSDT_short/model.pkl | ROC-AUC=0.5534
+[+] saved model → /root/crypto-models/models/WIFUSDT_long/model.pkl | ROC-AUC=0.5566
+[+] saved model → /root/crypto-models/models/WIFUSDT_short/model.pkl | ROC-AUC=0.5901
+[+] saved model → /root/crypto-models/models/WLDUSDT_short/model.pkl | ROC-AUC=0.5995
+[+] saved model → /root/crypto-models/models/XLMUSDT_short/model.pkl | ROC-AUC=0.6085
+[+] saved model → /root/crypto-models/models/XMRUSDT_short/model.pkl | ROC-AUC=0.4733
+[+] saved model → /root/crypto-models/models/XRPUSDT_short/model.pkl | ROC-AUC=0.5427
+[+] saved model → /root/crypto-models/models/ZECUSDT_long/model.pkl | ROC-AUC=0.5628
+[+] saved model → /root/crypto-models/models/ZECUSDT_short/model.pkl | ROC-AUC=0.5011
+[+] saved model → /root/crypto-models/models/ZILUSDT_long/model.pkl | ROC-AUC=0.4638
+[+] saved model → /root/crypto-models/models/ZILUSDT_short/model.pkl | ROC-AUC=0.5744
+[+] saved model → /root/crypto-models/models/ZKUSDT_long/model.pkl | ROC-AUC=0.5449
+[+] saved model → /root/crypto-models/models/ZKUSDT_short/model.pkl | ROC-AUC=0.5832

@@ -1,0 +1,2330 @@
+[skip] BABYDOGEUSDT – feature parquet missing → skipping long/15m
+[skip] BABYDOGEUSDT – feature parquet missing → skipping short/15m
+[skip] BABYDOGEUSDT – feature parquet missing → skipping long/60m
+[skip] BABYDOGEUSDT – feature parquet missing → skipping short/60m
+[skip] DATAGTUSDT – feature parquet missing → skipping long/15m
+[skip] DATAGTUSDT – feature parquet missing → skipping short/15m
+[skip] DATAGTUSDT – feature parquet missing → skipping long/60m
+[skip] DATAGTUSDT – feature parquet missing → skipping short/60m
+[skip] ELOMUSDT – feature parquet missing → skipping long/15m
+[skip] ELOMUSDT – feature parquet missing → skipping short/15m
+[skip] ELOMUSDT – feature parquet missing → skipping long/60m
+[skip] ELOMUSDT – feature parquet missing → skipping short/60m
+[skip] KEYUSDT – feature parquet missing → skipping long/15m
+[skip] KEYUSDT – feature parquet missing → skipping short/15m
+[skip] KEYUSDT – feature parquet missing → skipping long/60m
+[skip] KEYUSDT – feature parquet missing → skipping short/60m
+[skip] KNCUSDT – feature parquet missing → skipping long/15m
+[skip] KNCUSDT – feature parquet missing → skipping short/15m
+[skip] KNCUSDT – feature parquet missing → skipping long/60m
+[skip] KNCUSDT – feature parquet missing → skipping short/60m
+[skip] KSMUSDT – feature parquet missing → skipping long/15m
+[skip] KSMUSDT – feature parquet missing → skipping short/15m
+[skip] KSMUSDT – feature parquet missing → skipping long/60m
+[skip] KSMUSDT – feature parquet missing → skipping short/60m
+[skip] LAZIOUSDT – feature parquet missing → skipping long/15m
+[skip] LAZIOUSDT – feature parquet missing → skipping short/15m
+[skip] LAZIOUSDT – feature parquet missing → skipping long/60m
+[skip] LAZIOUSDT – feature parquet missing → skipping short/60m
+[skip] LLDOUSDT – feature parquet missing → skipping long/15m
+[skip] LLDOUSDT – feature parquet missing → skipping short/15m
+[skip] LLDOUSDT – feature parquet missing → skipping long/60m
+[skip] LLDOUSDT – feature parquet missing → skipping short/60m
+[skip] LOOKSUSDT – feature parquet missing → skipping long/15m
+[skip] LOOKSUSDT – feature parquet missing → skipping short/15m
+[skip] LOOKSUSDT – feature parquet missing → skipping long/60m
+[skip] LOOKSUSDT – feature parquet missing → skipping short/60m
+[skip] LRCUSDT – feature parquet missing → skipping long/15m
+[skip] LRCUSDT – feature parquet missing → skipping short/15m
+[skip] LRCUSDT – feature parquet missing → skipping long/60m
+[skip] LRCUSDT – feature parquet missing → skipping short/60m
+[skip] SAMOYEDCOINUSDT – feature parquet missing → skipping long/15m
+[skip] SAMOYEDCOINUSDT – feature parquet missing → skipping short/15m
+[skip] SAMOYEDCOINUSDT – feature parquet missing → skipping long/60m
+[skip] SAMOYEDCOINUSDT – feature parquet missing → skipping short/60m
+[skip] SPARTAUSDT – feature parquet missing → skipping long/15m
+[skip] SPARTAUSDT – feature parquet missing → skipping short/15m
+[skip] SPARTAUSDT – feature parquet missing → skipping long/60m
+[skip] SPARTAUSDT – feature parquet missing → skipping short/60m
+[skip] STORMXUSDT – feature parquet missing → skipping long/15m
+[skip] STORMXUSDT – feature parquet missing → skipping short/15m
+[skip] STORMXUSDT – feature parquet missing → skipping long/60m
+[skip] STORMXUSDT – feature parquet missing → skipping short/60m
+[skip] TWUSDT – feature parquet missing → skipping long/15m
+[skip] TWUSDT – feature parquet missing → skipping short/15m
+[skip] TWUSDT – feature parquet missing → skipping long/60m
+[skip] TWUSDT – feature parquet missing → skipping short/60m
+[info] training jobs queued: 284; running with 4 parallel workers …
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py M-M --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py M-M --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py M-M --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py M-M --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py AUCTIONUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py AUCTIONUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py AUCTIONUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py AUCTIONUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py AUTOUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py AUTOUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py AUTOUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py AUTOUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BAKEUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BAKEUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BAKEUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BAKEUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BALUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BALUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BALUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BALUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BANDUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BANDUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BANDUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BANDUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BEAMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BEAMUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BEAMUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BEAMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BETAUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BETAUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BETAUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BETAUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BNTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BNTUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BNTUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BNTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BNXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BNXUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BNXUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BNXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BURGERUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BURGERUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BURGERUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py BURGERUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CAKEUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CAKEUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CAKEUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CAKEUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CELOUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CELOUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CELOUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CELOUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CITYUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CITYUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CITYUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CITYUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COCOSUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COCOSUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COCOSUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COCOSUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COOKIEUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COOKIEUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COOKIEUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COOKIEUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COSUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COSUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COSUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COSUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COTIUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COTIUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COTIUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py COTIUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CRVUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CRVUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CRVUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CRVUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CTSIUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CTSIUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CTSIUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CTSIUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CVPUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CVPUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CVPUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py CVPUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DARUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DARUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DARUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DARUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DENTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DENTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DENTUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DENTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DREPUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DREPUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DREPUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DREPUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DUSKUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DUSKUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DUSKUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py DUSKUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py EOSUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py EOSUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py EOSUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py EOSUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py EPXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py EPXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py EPXUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py EPXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FIDAUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FIDAUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FIDAUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FIDAUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FIROUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FIROUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FIROUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FIROUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FISUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FISUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FISUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FISUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FRONTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FRONTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FRONTUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FRONTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FTMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FTMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FTMUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FTMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FTTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FTTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FTTUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py FTTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py GLMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py GLMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py GLMUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py GLMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py GRTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py GRTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py GRTUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py GRTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py HARDUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py HARDUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py HARDUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py HARDUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py HOTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py HOTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py HOTUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py HOTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ICXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ICXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ICXUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ICXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ILVUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ILVUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ILVUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ILVUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py IOTXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py IOTXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py IOTXUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py IOTXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py KAVAUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py KAVAUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py KAVAUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py KAVAUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MATICUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MATICUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MATICUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MATICUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MINAUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MINAUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MINAUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MINAUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MOVRUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MOVRUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MOVRUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MOVRUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MTLUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MTLUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MTLUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py MTLUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py NKNUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py NKNUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py NKNUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py NKNUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py NUUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py NUUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py NUUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py NUUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OCEANUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OCEANUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OCEANUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OCEANUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OGNUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OGNUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OGNUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OGNUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OXTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OXTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OXTUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py OXTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py PSGUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py PSGUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py PSGUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py PSGUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RADUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RADUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RADUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RADUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RAREUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RAREUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RAREUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RAREUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RENUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RENUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RENUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RENUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RGTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RGTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RGTUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RGTUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RUNEUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RUNEUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RUNEUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py RUNEUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py SKLUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py SKLUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py SKLUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py SKLUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py SNXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py SNXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py SNXUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py SNXUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py STORJUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py STORJUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py STORJUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py STORJUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py TLMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py TLMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py TLMUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py TLMUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py TOMOUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py TOMOUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py TOMOUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py TOMOUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py USTCUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py USTCUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py USTCUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py USTCUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py VOXELUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py VOXELUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py VOXELUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py VOXELUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WAVESUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WAVESUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WAVESUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WAVESUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WAXPUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WAXPUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WAXPUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WAXPUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WINUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WINUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WINUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WINUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WTCUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WTCUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WTCUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py WTCUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py XTZUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py XTZUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py XTZUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py XTZUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py YFIUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py YFIUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py YFIUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py YFIUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py YGGUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py YGGUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py YGGUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py YGGUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ZENUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ZENUSDT --mode … returned 1
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+Traceback (most recent call last):
+  File "/root/crypto-models/train/train.py", line 213, in <module>
+    main()
+  File "/root/crypto-models/train/train.py", line 137, in main
+    pos_count = y_train.sum()
+                ^^^^^^^
+UnboundLocalError: cannot access local variable 'y_train' where it is not associated with a value
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ZENUSDT --mode … returned 1
+[warn] cmd /root/crypto-models/venv/bin/python /root/crypto-models/train/train.py ZENUSDT --mode … returned 1
+[✓] All training jobs finished

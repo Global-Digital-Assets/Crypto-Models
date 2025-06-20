@@ -1,0 +1,601 @@
+models:
+- token: 1000BONK
+  modes:
+  - short
+- token: 1000BONKUSDT
+  modes:
+  - short
+- token: 1000FLOKI
+  modes:
+  - short
+- token: 1000FLOKIUSDT
+  modes:
+  - short
+- token: 1000LUNC
+  modes:
+  - short
+- token: 1000LUNCUSDT
+  modes:
+  - short
+- token: 1000PEPEUSDT
+  modes:
+  - short
+- token: 1000SATS
+  modes:
+  - short
+- token: 1000SATSUSDT
+  modes:
+  - short
+- token: 1000SHIB
+  modes:
+  - short
+- token: 1000SHIBUSDT
+  modes:
+  - short
+- token: AAVE
+  modes:
+  - short
+- token: ACH
+  modes:
+  - long
+  - short
+- token: ACHUSDT
+  modes:
+  - long
+  - short
+- token: ADA
+  modes:
+  - short
+- token: ALGO
+  modes:
+  - long
+  - short
+- token: ALGOUSDT
+  modes:
+  - long
+  - short
+- token: AMP
+  modes:
+  - short
+- token: APT
+  modes:
+  - short
+- token: ARB
+  modes:
+  - short
+- token: ARDR
+  modes:
+  - short
+- token: ATOM
+  modes:
+  - short
+- token: AVAX
+  modes:
+  - short
+- token: AXS
+  modes:
+  - long
+  - short
+- token: AXSUSDT
+  modes:
+  - long
+  - short
+- token: BAT
+  modes:
+  - long
+  - short
+- token: BATUSDT
+  modes:
+  - long
+  - short
+- token: BCH
+  modes:
+  - short
+- token: BLUR
+  modes:
+  - long
+  - short
+- token: BLURUSDT
+  modes:
+  - long
+  - short
+- token: BNB
+  modes:
+  - short
+- token: BNBUSDT
+  modes:
+  - short
+- token: BOME
+  modes:
+  - long
+  - short
+- token: BOMEUSDT
+  modes:
+  - long
+  - short
+- token: BONK
+  modes:
+  - long
+  - short
+- token: BONKUSDT
+  modes:
+  - long
+  - short
+- token: C98
+  modes:
+  - long
+  - short
+- token: C98USDT
+  modes:
+  - long
+  - short
+- token: CFX
+  modes:
+  - long
+  - short
+- token: CFXUSDT
+  modes:
+  - long
+  - short
+- token: CHZ
+  modes:
+  - long
+  - short
+- token: CHZUSDT
+  modes:
+  - long
+  - short
+- token: COMP
+  modes:
+  - long
+  - short
+- token: COMPUSDT
+  modes:
+  - long
+  - short
+- token: DASH
+  modes:
+  - long
+  - short
+- token: DASHUSDT
+  modes:
+  - long
+  - short
+- token: DOGE
+  modes:
+  - long
+  - short
+- token: DOGEUSDT
+  modes:
+  - long
+  - short
+- token: DOT
+  modes:
+  - short
+- token: DYDX
+  modes:
+  - long
+  - short
+- token: DYDXUSDT
+  modes:
+  - long
+  - short
+- token: DYM
+  modes:
+  - long
+  - short
+- token: DYMUSDT
+  modes:
+  - long
+  - short
+- token: EGLD
+  modes:
+  - short
+- token: EIGEN
+  modes:
+  - long
+  - short
+- token: EIGENUSDT
+  modes:
+  - long
+  - short
+- token: ENA
+  modes:
+  - long
+  - short
+- token: ENAUSDT
+  modes:
+  - long
+  - short
+- token: ENJ
+  modes:
+  - long
+  - short
+- token: ENJUSDT
+  modes:
+  - long
+  - short
+- token: ENS
+  modes:
+  - long
+  - short
+- token: ENSUSDT
+  modes:
+  - long
+  - short
+- token: ETC
+  modes:
+  - short
+- token: ETH
+  modes:
+  - short
+- token: FET
+  modes:
+  - long
+  - short
+- token: FETUSDT
+  modes:
+  - long
+  - short
+- token: FIL
+  modes:
+  - short
+- token: FLOKI
+  modes:
+  - short
+- token: FLOKIUSDT
+  modes:
+  - short
+- token: FLOW
+  modes:
+  - short
+- token: FLOWUSDT
+  modes:
+  - short
+- token: GALA
+  modes:
+  - short
+- token: GALAUSDT
+  modes:
+  - short
+- token: HBAR
+  modes:
+  - short
+- token: HBARUSDT
+  modes:
+  - short
+- token: ICP
+  modes:
+  - short
+- token: ICPUSDT
+  modes:
+  - short
+- token: IMX
+  modes:
+  - short
+- token: IMXUSDT
+  modes:
+  - short
+- token: INJ
+  modes:
+  - short
+- token: INJUSDT
+  modes:
+  - short
+- token: JASMY
+  modes:
+  - short
+- token: JASMYUSDT
+  modes:
+  - short
+- token: JUP
+  modes:
+  - short
+- token: JUPUSDT
+  modes:
+  - short
+- token: KAS
+  modes:
+  - short
+- token: KASUSDT
+  modes:
+  - short
+- token: LDO
+  modes:
+  - short
+- token: LDOUSDT
+  modes:
+  - short
+- token: LINK
+  modes:
+  - short
+- token: LINKUSDT
+  modes:
+  - short
+- token: LPT
+  modes:
+  - short
+- token: LPTUSDT
+  modes:
+  - short
+- token: LTC
+  modes:
+  - short
+- token: LTCUSDT
+  modes:
+  - short
+- token: MANA
+  modes:
+  - short
+- token: MANAUSDT
+  modes:
+  - short
+- token: MEME
+  modes:
+  - short
+- token: MEMEUSDT
+  modes:
+  - short
+- token: MKR
+  modes:
+  - short
+- token: MKRUSDT
+  modes:
+  - short
+- token: NEAR
+  modes:
+  - short
+- token: NEARUSDT
+  modes:
+  - short
+- token: NEO
+  modes:
+  - short
+- token: NEOUSDT
+  modes:
+  - short
+- token: NTRN
+  modes:
+  - short
+- token: NTRNUSDT
+  modes:
+  - short
+- token: ONE
+  modes:
+  - short
+- token: ONEUSDT
+  modes:
+  - short
+- token: OP
+  modes:
+  - short
+- token: OPUSDT
+  modes:
+  - short
+- token: ORDI
+  modes:
+  - short
+- token: ORDIUSDT
+  modes:
+  - short
+- token: PEOPLE
+  modes:
+  - short
+- token: PEOPLEUSDT
+  modes:
+  - short
+- token: PEPE
+  modes:
+  - long
+- token: PEPEUSDT
+  modes:
+  - long
+  - short
+- token: PIXEL
+  modes:
+  - short
+- token: PIXELUSDT
+  modes:
+  - short
+- token: PORTAL
+  modes:
+  - long
+  - short
+- token: PORTALUSDT
+  modes:
+  - long
+  - short
+- token: PYTH
+  modes:
+  - long
+  - short
+- token: PYTHUSDT
+  modes:
+  - long
+  - short
+- token: QNT
+  modes:
+  - short
+- token: QNTUSDT
+  modes:
+  - short
+- token: RAY
+  modes:
+  - short
+- token: RAYUSDT
+  modes:
+  - short
+- token: RSR
+  modes:
+  - short
+- token: RSRUSDT
+  modes:
+  - short
+- token: RVN
+  modes:
+  - short
+- token: RVNUSDT
+  modes:
+  - short
+- token: SAND
+  modes:
+  - short
+- token: SANDUSDT
+  modes:
+  - short
+- token: SEI
+  modes:
+  - short
+- token: SEIUSDT
+  modes:
+  - short
+- token: SFP
+  modes:
+  - short
+- token: SFPUSDT
+  modes:
+  - short
+- token: SHIB
+  modes:
+  - long
+  - short
+- token: SHIBUSDT
+  modes:
+  - long
+  - short
+- token: STX
+  modes:
+  - short
+- token: STXUSDT
+  modes:
+  - short
+- token: SUI
+  modes:
+  - short
+- token: SUSHI
+  modes:
+  - short
+- token: TAO
+  modes:
+  - long
+  - short
+- token: TAOUSDT
+  modes:
+  - long
+  - short
+- token: THETA
+  modes:
+  - long
+  - short
+- token: THETAUSDT
+  modes:
+  - long
+  - short
+- token: TIA
+  modes:
+  - long
+  - short
+- token: TIAUSDT
+  modes:
+  - long
+  - short
+- token: TRB
+  modes:
+  - long
+  - short
+- token: TRBUSDT
+  modes:
+  - long
+  - short
+- token: TRUMP
+  modes:
+  - short
+- token: TRUMPUSDT
+  modes:
+  - short
+- token: TRX
+  modes:
+  - short
+- token: TRXUSDT
+  modes:
+  - short
+- token: TURBO
+  modes:
+  - short
+- token: TURBOUSDT
+  modes:
+  - short
+- token: UNI
+  modes:
+  - short
+- token: UNIUSDT
+  modes:
+  - short
+- token: VET
+  modes:
+  - short
+- token: VETUSDT
+  modes:
+  - short
+- token: VIRTUAL
+  modes:
+  - short
+- token: VIRTUALUSDT
+  modes:
+  - short
+- token: WIF
+  modes:
+  - long
+  - short
+- token: WIFUSDT
+  modes:
+  - long
+  - short
+- token: WLD
+  modes:
+  - short
+- token: WLDUSDT
+  modes:
+  - short
+- token: XLM
+  modes:
+  - short
+- token: XLMUSDT
+  modes:
+  - short
+- token: XMR
+  modes:
+  - short
+- token: XMRUSDT
+  modes:
+  - short
+- token: XRP
+  modes:
+  - short
+- token: XRPUSDT
+  modes:
+  - short
+- token: ZEC
+  modes:
+  - long
+  - short
+- token: ZECUSDT
+  modes:
+  - long
+  - short
+- token: ZIL
+  modes:
+  - long
+  - short
+- token: ZILUSDT
+  modes:
+  - long
+  - short
+- token: ZK
+  modes:
+  - long
+  - short
+- token: ZKUSDT
+  modes:
+  - long
+  - short

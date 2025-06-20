@@ -1,0 +1,924 @@
+[catchup] ADXUSDT
+[info] local raw parquet missing for ADXUSDT; fetching from Data-API…
+[info] Data-API empty for ADXUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/ADXUSDT.parquet
+[catchup] AGLDUSDT
+[info] local raw parquet missing for AGLDUSDT; fetching from Data-API…
+[info] Data-API empty for AGLDUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/AGLDUSDT.parquet
+[catchup] ALPACAUSDT
+[info] local raw parquet missing for ALPACAUSDT; fetching from Data-API…
+[info] Data-API empty for ALPACAUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/ALPACAUSDT.parquet
+[catchup] ALPHAUSDT
+[info] local raw parquet missing for ALPHAUSDT; fetching from Data-API…
+[info] Data-API empty for ALPHAUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/ALPHAUSDT.parquet
+[catchup] ANKRUSDT
+[info] local raw parquet missing for ANKRUSDT; fetching from Data-API…
+[info] Data-API empty for ANKRUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/ANKRUSDT.parquet
+[catchup] APEUSDT
+[info] local raw parquet missing for APEUSDT; fetching from Data-API…
+[info] Data-API empty for APEUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/APEUSDT.parquet
+[catchup] AUCTIONUSDT
+[info] local raw parquet missing for AUCTIONUSDT; fetching from Data-API…
+[info] Data-API empty for AUCTIONUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/AUCTIONUSDT.parquet
+[catchup] AUTOUSDT
+[info] local raw parquet missing for AUTOUSDT; fetching from Data-API…
+[info] Data-API empty for AUTOUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/AUTOUSDT.parquet
+[catchup] BABYDOGEUSDT
+[info] local raw parquet missing for BABYDOGEUSDT; fetching from Data-API…
+[info] Data-API empty for BABYDOGEUSDT; trying Binance REST…
+No candle data from Data-API nor Binance (spot or futures)
+[catchup] BAKEUSDT
+[info] local raw parquet missing for BAKEUSDT; fetching from Data-API…
+[info] Data-API empty for BAKEUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/BAKEUSDT.parquet
+[catchup] BALUSDT
+[info] local raw parquet missing for BALUSDT; fetching from Data-API…
+[info] Data-API empty for BALUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/BALUSDT.parquet
+[catchup] BANDUSDT
+[info] local raw parquet missing for BANDUSDT; fetching from Data-API…
+[info] Data-API empty for BANDUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/BANDUSDT.parquet
+[catchup] BEAMUSDT
+[info] local raw parquet missing for BEAMUSDT; fetching from Data-API…
+[info] Data-API empty for BEAMUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/BEAMUSDT.parquet
+[catchup] BETAUSDT
+[info] local raw parquet missing for BETAUSDT; fetching from Data-API…
+[info] Data-API empty for BETAUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/BETAUSDT.parquet
+[catchup] BNTUSDT
+[info] local raw parquet missing for BNTUSDT; fetching from Data-API…
+[info] Data-API empty for BNTUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/BNTUSDT.parquet
+[catchup] BNXUSDT
+[info] local raw parquet missing for BNXUSDT; fetching from Data-API…
+[info] Data-API empty for BNXUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/BNXUSDT.parquet
+[catchup] BURGERUSDT
+[info] local raw parquet missing for BURGERUSDT; fetching from Data-API…
+[info] Data-API empty for BURGERUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/BURGERUSDT.parquet
+[catchup] CAKEUSDT
+[info] local raw parquet missing for CAKEUSDT; fetching from Data-API…
+[info] Data-API empty for CAKEUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/CAKEUSDT.parquet
+[catchup] CELOUSDT
+[info] local raw parquet missing for CELOUSDT; fetching from Data-API…
+[info] Data-API empty for CELOUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/CELOUSDT.parquet
+[catchup] CITYUSDT
+[info] local raw parquet missing for CITYUSDT; fetching from Data-API…
+[info] Data-API empty for CITYUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/CITYUSDT.parquet
+[catchup] COCOSUSDT
+[info] local raw parquet missing for COCOSUSDT; fetching from Data-API…
+[info] Data-API empty for COCOSUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/COCOSUSDT.parquet
+[catchup] COOKIEUSDT
+[info] local raw parquet missing for COOKIEUSDT; fetching from Data-API…
+[info] Data-API empty for COOKIEUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/COOKIEUSDT.parquet
+[catchup] COSUSDT
+[info] local raw parquet missing for COSUSDT; fetching from Data-API…
+[info] Data-API empty for COSUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/COSUSDT.parquet
+[catchup] COTIUSDT
+[info] local raw parquet missing for COTIUSDT; fetching from Data-API…
+[info] Data-API empty for COTIUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/COTIUSDT.parquet
+[catchup] CRVUSDT
+[info] local raw parquet missing for CRVUSDT; fetching from Data-API…
+[info] Data-API empty for CRVUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/CRVUSDT.parquet
+[catchup] CTSIUSDT
+[info] local raw parquet missing for CTSIUSDT; fetching from Data-API…
+[info] Data-API empty for CTSIUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/CTSIUSDT.parquet
+[catchup] CVPUSDT
+[info] local raw parquet missing for CVPUSDT; fetching from Data-API…
+[info] Data-API empty for CVPUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/CVPUSDT.parquet
+[catchup] DARUSDT
+[info] local raw parquet missing for DARUSDT; fetching from Data-API…
+[info] Data-API empty for DARUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/DARUSDT.parquet
+[catchup] DATAGTUSDT
+[info] local raw parquet missing for DATAGTUSDT; fetching from Data-API…
+[info] Data-API empty for DATAGTUSDT; trying Binance REST…
+No candle data from Data-API nor Binance (spot or futures)
+[catchup] DENTUSDT
+[info] local raw parquet missing for DENTUSDT; fetching from Data-API…
+[info] Data-API empty for DENTUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/DENTUSDT.parquet
+[catchup] DREPUSDT
+[info] local raw parquet missing for DREPUSDT; fetching from Data-API…
+[info] Data-API empty for DREPUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/DREPUSDT.parquet
+[catchup] DUSKUSDT
+[info] local raw parquet missing for DUSKUSDT; fetching from Data-API…
+[info] Data-API empty for DUSKUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/DUSKUSDT.parquet
+[catchup] ELOMUSDT
+[info] local raw parquet missing for ELOMUSDT; fetching from Data-API…
+[info] Data-API empty for ELOMUSDT; trying Binance REST…
+No candle data from Data-API nor Binance (spot or futures)
+[catchup] EOSUSDT
+[info] local raw parquet missing for EOSUSDT; fetching from Data-API…
+[info] Data-API empty for EOSUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/EOSUSDT.parquet
+[catchup] EPXUSDT
+[info] local raw parquet missing for EPXUSDT; fetching from Data-API…
+[info] Data-API empty for EPXUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/EPXUSDT.parquet
+[catchup] FIDAUSDT
+[info] local raw parquet missing for FIDAUSDT; fetching from Data-API…
+[info] Data-API empty for FIDAUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/FIDAUSDT.parquet
+[catchup] FIROUSDT
+[info] local raw parquet missing for FIROUSDT; fetching from Data-API…
+[info] Data-API empty for FIROUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/FIROUSDT.parquet
+[catchup] FISUSDT
+[info] local raw parquet missing for FISUSDT; fetching from Data-API…
+[info] Data-API empty for FISUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/FISUSDT.parquet
+[catchup] FRONTUSDT
+[info] local raw parquet missing for FRONTUSDT; fetching from Data-API…
+[info] Data-API empty for FRONTUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/FRONTUSDT.parquet
+[catchup] FTMUSDT
+[info] local raw parquet missing for FTMUSDT; fetching from Data-API…
+[info] Data-API empty for FTMUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/FTMUSDT.parquet
+[catchup] FTTUSDT
+[info] local raw parquet missing for FTTUSDT; fetching from Data-API…
+[info] Data-API empty for FTTUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/FTTUSDT.parquet
+[catchup] GLMUSDT
+[info] local raw parquet missing for GLMUSDT; fetching from Data-API…
+[info] Data-API empty for GLMUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/GLMUSDT.parquet
+[catchup] GRTUSDT
+[info] local raw parquet missing for GRTUSDT; fetching from Data-API…
+[info] Data-API empty for GRTUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/GRTUSDT.parquet
+[catchup] HARDUSDT
+[info] local raw parquet missing for HARDUSDT; fetching from Data-API…
+[info] Data-API empty for HARDUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/HARDUSDT.parquet
+[catchup] HOTUSDT
+[info] local raw parquet missing for HOTUSDT; fetching from Data-API…
+[info] Data-API empty for HOTUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/HOTUSDT.parquet
+[catchup] ICXUSDT
+[info] local raw parquet missing for ICXUSDT; fetching from Data-API…
+[info] Data-API empty for ICXUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/ICXUSDT.parquet
+[catchup] ILVUSDT
+[info] local raw parquet missing for ILVUSDT; fetching from Data-API…
+[info] Data-API empty for ILVUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/ILVUSDT.parquet
+[catchup] IOTXUSDT
+[info] local raw parquet missing for IOTXUSDT; fetching from Data-API…
+[info] Data-API empty for IOTXUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/IOTXUSDT.parquet
+[catchup] KAVAUSDT
+[info] local raw parquet missing for KAVAUSDT; fetching from Data-API…
+[info] Data-API empty for KAVAUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/KAVAUSDT.parquet
+[catchup] KEYUSDT
+[info] local raw parquet missing for KEYUSDT; fetching from Data-API…
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/usr/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/features/build_features.py", line 328, in <module>
+    build(args.token)
+  File "/root/crypto-models/features/build_features.py", line 113, in build
+    resp = requests.get(f"{API_URL}/candles/{symbol}/1m", params={"limit": 43200})  # 30 days of 1-min
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[catchup] KNCUSDT
+[info] local raw parquet missing for KNCUSDT; fetching from Data-API…
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0xeb95f56887a0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/KNCUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xeb95f56887a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/features/build_features.py", line 328, in <module>
+    build(args.token)
+  File "/root/crypto-models/features/build_features.py", line 113, in build
+    resp = requests.get(f"{API_URL}/candles/{symbol}/1m", params={"limit": 43200})  # 30 days of 1-min
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/KNCUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xeb95f56887a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[catchup] KSMUSDT
+[info] local raw parquet missing for KSMUSDT; fetching from Data-API…
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0xf2df6d09ba10>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/KSMUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xf2df6d09ba10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/features/build_features.py", line 328, in <module>
+    build(args.token)
+  File "/root/crypto-models/features/build_features.py", line 113, in build
+    resp = requests.get(f"{API_URL}/candles/{symbol}/1m", params={"limit": 43200})  # 30 days of 1-min
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/KSMUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xf2df6d09ba10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[catchup] LAZIOUSDT
+[info] local raw parquet missing for LAZIOUSDT; fetching from Data-API…
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0xf3b5a5b59190>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/LAZIOUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xf3b5a5b59190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/features/build_features.py", line 328, in <module>
+    build(args.token)
+  File "/root/crypto-models/features/build_features.py", line 113, in build
+    resp = requests.get(f"{API_URL}/candles/{symbol}/1m", params={"limit": 43200})  # 30 days of 1-min
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/LAZIOUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xf3b5a5b59190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[catchup] LLDOUSDT
+[info] local raw parquet missing for LLDOUSDT; fetching from Data-API…
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0xe325eb38e060>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/LLDOUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xe325eb38e060>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/features/build_features.py", line 328, in <module>
+    build(args.token)
+  File "/root/crypto-models/features/build_features.py", line 113, in build
+    resp = requests.get(f"{API_URL}/candles/{symbol}/1m", params={"limit": 43200})  # 30 days of 1-min
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/LLDOUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xe325eb38e060>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[catchup] LOOKSUSDT
+[info] local raw parquet missing for LOOKSUSDT; fetching from Data-API…
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0xf4b7e9555160>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/LOOKSUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xf4b7e9555160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/features/build_features.py", line 328, in <module>
+    build(args.token)
+  File "/root/crypto-models/features/build_features.py", line 113, in build
+    resp = requests.get(f"{API_URL}/candles/{symbol}/1m", params={"limit": 43200})  # 30 days of 1-min
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/LOOKSUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xf4b7e9555160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[catchup] LRCUSDT
+[info] local raw parquet missing for LRCUSDT; fetching from Data-API…
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 445, in request
+    self.endheaders()
+  File "/usr/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 276, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0xe7e28c0461e0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/LRCUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xe7e28c0461e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/crypto-models/features/build_features.py", line 328, in <module>
+    build(args.token)
+  File "/root/crypto-models/features/build_features.py", line 113, in build
+    resp = requests.get(f"{API_URL}/candles/{symbol}/1m", params={"limit": 43200})  # 30 days of 1-min
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/crypto-models/venv/lib/python3.12/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8001): Max retries exceeded with url: /candles/LRCUSDT/1m?limit=43200 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xe7e28c0461e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[catchup] MATICUSDT
+[info] local raw parquet missing for MATICUSDT; fetching from Data-API…
+[info] Data-API empty for MATICUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/MATICUSDT.parquet
+[catchup] MINAUSDT
+[info] local raw parquet missing for MINAUSDT; fetching from Data-API…
+[info] Data-API empty for MINAUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/MINAUSDT.parquet
+[catchup] MOVRUSDT
+[info] local raw parquet missing for MOVRUSDT; fetching from Data-API…
+[info] Data-API empty for MOVRUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/MOVRUSDT.parquet
+[catchup] MTLUSDT
+[info] local raw parquet missing for MTLUSDT; fetching from Data-API…
+[info] Data-API empty for MTLUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/MTLUSDT.parquet
+[catchup] NKNUSDT
+[info] local raw parquet missing for NKNUSDT; fetching from Data-API…
+[info] Data-API empty for NKNUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/NKNUSDT.parquet
+[catchup] NUUSDT
+[info] local raw parquet missing for NUUSDT; fetching from Data-API…
+[info] Data-API empty for NUUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/NUUSDT.parquet
+[catchup] OCEANUSDT
+[info] local raw parquet missing for OCEANUSDT; fetching from Data-API…
+[info] Data-API empty for OCEANUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/OCEANUSDT.parquet
+[catchup] OGNUSDT
+[info] local raw parquet missing for OGNUSDT; fetching from Data-API…
+[info] Data-API empty for OGNUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/OGNUSDT.parquet
+[catchup] OXTUSDT
+[info] local raw parquet missing for OXTUSDT; fetching from Data-API…
+[info] Data-API empty for OXTUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/OXTUSDT.parquet
+[catchup] PSGUSDT
+[info] local raw parquet missing for PSGUSDT; fetching from Data-API…
+[info] Data-API empty for PSGUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/PSGUSDT.parquet
+[catchup] RADUSDT
+[info] local raw parquet missing for RADUSDT; fetching from Data-API…
+[info] Data-API empty for RADUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/RADUSDT.parquet
+[catchup] RAREUSDT
+[info] local raw parquet missing for RAREUSDT; fetching from Data-API…
+[info] Data-API empty for RAREUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/RAREUSDT.parquet
+[catchup] RENUSDT
+[info] local raw parquet missing for RENUSDT; fetching from Data-API…
+[info] Data-API empty for RENUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/RENUSDT.parquet
+[catchup] RGTUSDT
+[info] local raw parquet missing for RGTUSDT; fetching from Data-API…
+[info] Data-API empty for RGTUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/RGTUSDT.parquet
+[catchup] RUNEUSDT
+[info] local raw parquet missing for RUNEUSDT; fetching from Data-API…
+[info] Data-API empty for RUNEUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/RUNEUSDT.parquet
+[catchup] SAMOYEDCOINUSDT
+[info] local raw parquet missing for SAMOYEDCOINUSDT; fetching from Data-API…
+[info] Data-API empty for SAMOYEDCOINUSDT; trying Binance REST…
+No candle data from Data-API nor Binance (spot or futures)
+[catchup] SKLUSDT
+[info] local raw parquet missing for SKLUSDT; fetching from Data-API…
+[info] Data-API empty for SKLUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/SKLUSDT.parquet
+[catchup] SNXUSDT
+[info] local raw parquet missing for SNXUSDT; fetching from Data-API…
+[info] Data-API empty for SNXUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/SNXUSDT.parquet
+[catchup] SPARTAUSDT
+[info] local raw parquet missing for SPARTAUSDT; fetching from Data-API…
+[info] Data-API empty for SPARTAUSDT; trying Binance REST…
+No candle data from Data-API nor Binance (spot or futures)
+[catchup] STORJUSDT
+[info] local raw parquet missing for STORJUSDT; fetching from Data-API…
+[info] Data-API empty for STORJUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/STORJUSDT.parquet
+[catchup] STORMXUSDT
+[info] local raw parquet missing for STORMXUSDT; fetching from Data-API…
+[info] Data-API empty for STORMXUSDT; trying Binance REST…
+No candle data from Data-API nor Binance (spot or futures)
+[catchup] TLMUSDT
+[info] local raw parquet missing for TLMUSDT; fetching from Data-API…
+[info] Data-API empty for TLMUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/TLMUSDT.parquet
+[catchup] TOMOUSDT
+[info] local raw parquet missing for TOMOUSDT; fetching from Data-API…
+[info] Data-API empty for TOMOUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/TOMOUSDT.parquet
+[catchup] TWUSDT
+[info] local raw parquet missing for TWUSDT; fetching from Data-API…
+[info] Data-API empty for TWUSDT; trying Binance REST…
+No candle data from Data-API nor Binance (spot or futures)
+[catchup] USTCUSDT
+[info] local raw parquet missing for USTCUSDT; fetching from Data-API…
+[info] Data-API empty for USTCUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/USTCUSDT.parquet
+[catchup] VOXELUSDT
+[info] local raw parquet missing for VOXELUSDT; fetching from Data-API…
+[info] Data-API empty for VOXELUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/VOXELUSDT.parquet
+[catchup] WAVESUSDT
+[info] local raw parquet missing for WAVESUSDT; fetching from Data-API…
+[info] Data-API empty for WAVESUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/WAVESUSDT.parquet
+[catchup] WAXPUSDT
+[info] local raw parquet missing for WAXPUSDT; fetching from Data-API…
+[info] Data-API empty for WAXPUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/WAXPUSDT.parquet
+[catchup] WINUSDT
+[info] local raw parquet missing for WINUSDT; fetching from Data-API…
+[info] Data-API empty for WINUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/WINUSDT.parquet
+[catchup] WTCUSDT
+[info] local raw parquet missing for WTCUSDT; fetching from Data-API…
+[info] Data-API empty for WTCUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/WTCUSDT.parquet
+[catchup] XTZUSDT
+[info] local raw parquet missing for XTZUSDT; fetching from Data-API…
+[info] Data-API empty for XTZUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/XTZUSDT.parquet
+[catchup] YFIUSDT
+[info] local raw parquet missing for YFIUSDT; fetching from Data-API…
+[info] Data-API empty for YFIUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/YFIUSDT.parquet
+[catchup] YGGUSDT
+[info] local raw parquet missing for YGGUSDT; fetching from Data-API…
+[info] Data-API empty for YGGUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/YGGUSDT.parquet
+[catchup] ZENUSDT
+[info] local raw parquet missing for ZENUSDT; fetching from Data-API…
+[info] Data-API empty for ZENUSDT; trying Binance REST…
+[warn] macro feed missing 'ts'; skipping macro join
+[+] features → features/ZENUSDT.parquet

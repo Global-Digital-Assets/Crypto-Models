@@ -22,7 +22,7 @@ DATA_DIR = ROOT_DIR / "data"
 FEATURES_DIR = ROOT_DIR / "features"
 BUCKET_MAPPING_FILE = ROOT_DIR / "bucket_mapping.csv"
 DATA_API_URL = os.getenv("DATA_API_URL", "http://127.0.0.1:8001")
-PUSHGATEWAY_URL = os.getenv("PUSHGATEWAY_URL", "http://127.0.0.1:9091")
+PUSHGATEWAY_URL = os.getenv("PUSHGATEWAY_URL", "")  # Empty disables Prometheus push
 
 _DUR_RE = re.compile(r"^(\d+)([smhd])$")
 

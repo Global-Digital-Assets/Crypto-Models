@@ -1,0 +1,48 @@
+=== training MAGICUSDT long 60 ===
+[+] saved model → /root/crypto-models/models/MAGICUSDT_long/model.pkl | ROC-AUC=0.4292
+=== training MAGICUSDT short 60 ===
+[+] saved model → /root/crypto-models/models/MAGICUSDT_short/model.pkl | ROC-AUC=0.5433
+=== training MAGICUSDT long 180 ===
+[+] saved model → /root/crypto-models/models/MAGICUSDT_long/model.pkl | ROC-AUC=0.4621
+=== training MAGICUSDT short 180 ===
+[+] saved model → /root/crypto-models/models/MAGICUSDT_short/model.pkl | ROC-AUC=0.6208
+=== training ALTUSDT long 60 ===
+[+] saved model → /root/crypto-models/models/ALTUSDT_long/model.pkl | ROC-AUC=0.5196
+=== training ALTUSDT short 60 ===
+[+] saved model → /root/crypto-models/models/ALTUSDT_short/model.pkl | ROC-AUC=0.7213
+=== training ALTUSDT long 180 ===
+[+] saved model → /root/crypto-models/models/ALTUSDT_long/model.pkl | ROC-AUC=0.5178
+=== training ALTUSDT short 180 ===
+[+] saved model → /root/crypto-models/models/ALTUSDT_short/model.pkl | ROC-AUC=0.7143
+=== training BMTUSDT long 60 ===
+[+] saved model → /root/crypto-models/models/BMTUSDT_long/model.pkl | ROC-AUC=0.558
+=== training BMTUSDT short 60 ===
+[+] saved model → /root/crypto-models/models/BMTUSDT_short/model.pkl | ROC-AUC=0.5389
+=== training BMTUSDT long 180 ===
+[+] saved model → /root/crypto-models/models/BMTUSDT_long/model.pkl | ROC-AUC=0.5515
+=== training BMTUSDT short 180 ===
+[+] saved model → /root/crypto-models/models/BMTUSDT_short/model.pkl | ROC-AUC=0.4043
+=== training DGBUSDT long 60 ===
+[+] saved model → /root/crypto-models/models/DGBUSDT_long/model.pkl | ROC-AUC=nan
+=== training DGBUSDT short 60 ===
+[+] saved model → /root/crypto-models/models/DGBUSDT_short/model.pkl | ROC-AUC=0.5
+=== training DGBUSDT long 180 ===
+[+] saved model → /root/crypto-models/models/DGBUSDT_long/model.pkl | ROC-AUC=nan
+=== training DGBUSDT short 180 ===
+[+] saved model → /root/crypto-models/models/DGBUSDT_short/model.pkl | ROC-AUC=0.5
+=== training WCTUSDT long 60 ===
+[+] saved model → /root/crypto-models/models/WCTUSDT_long/model.pkl | ROC-AUC=0.6667
+=== training WCTUSDT short 60 ===
+[+] saved model → /root/crypto-models/models/WCTUSDT_short/model.pkl | ROC-AUC=0.5
+=== training WCTUSDT long 180 ===
+[+] saved model → /root/crypto-models/models/WCTUSDT_long/model.pkl | ROC-AUC=0.6417
+=== training WCTUSDT short 180 ===
+[+] saved model → /root/crypto-models/models/WCTUSDT_short/model.pkl | ROC-AUC=0.6403
+=== training RESOLVUSDT long 60 ===
+[+] saved model → /root/crypto-models/models/RESOLVUSDT_long/model.pkl | ROC-AUC=0.4479
+=== training RESOLVUSDT short 60 ===
+[+] saved model → /root/crypto-models/models/RESOLVUSDT_short/model.pkl | ROC-AUC=0.4687
+=== training RESOLVUSDT long 180 ===
+[+] saved model → /root/crypto-models/models/RESOLVUSDT_long/model.pkl | ROC-AUC=0.5537
+=== training RESOLVUSDT short 180 ===
+[+] saved model → /root/crypto-models/models/RESOLVUSDT_short/model.pkl | ROC-AUC=0.4014
